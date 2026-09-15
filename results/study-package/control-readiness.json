@@ -1,0 +1,18 @@
+{
+  "reviewed_on": "2026-09-14",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/",
+  "entries": 10,
+  "new_prediction_count": 0,
+  "decision": "NO_NEW_INFERENCE_READY",
+  "reasons": [
+    "Original scramble has no experimentally established inactive label.",
+    "The new table is a distinct noncanonical thioacetal family; exact structure and stereochemistry have not been independently instantiated.",
+    "TR-FRET EC50 and right-censored values cannot be treated as peptide binding KD.",
+    "A small panel and three seeds do not validate a general binder classifier."
+  ],
+  "next_requirements": [
+    "Verify exact chemical structures against primary figures/supplementary material.",
+    "Check supported model representation and define an independent benchmark before inference.",
+    "Confirm deadline and current free compute allowance."
+  ]
+}

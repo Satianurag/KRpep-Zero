@@ -1,0 +1,3048 @@
+{
+  "rdkit_version": "2026.03.6",
+  "scope": "representation preparation only; not a conformational prediction",
+  "controls": [
+    {
+      "id": "KRpep-2d",
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "smiles": "CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC1=O",
+      "atom_map": [
+        {
+          "smiles_atom_index": 80,
+          "peptide_author_residue": 1,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 72,
+          "peptide_author_residue": 1,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 70,
+          "peptide_author_residue": 1,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 71,
+          "peptide_author_residue": 1,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 73,
+          "peptide_author_residue": 1,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 74,
+          "peptide_author_residue": 1,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 75,
+          "peptide_author_residue": 1,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 76,
+          "peptide_author_residue": 1,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 77,
+          "peptide_author_residue": 1,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 78,
+          "peptide_author_residue": 1,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 79,
+          "peptide_author_residue": 1,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 69,
+          "peptide_author_residue": 2,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 61,
+          "peptide_author_residue": 2,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 59,
+          "peptide_author_residue": 2,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 60,
+          "peptide_author_residue": 2,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 62,
+          "peptide_author_residue": 2,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 63,
+          "peptide_author_residue": 2,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 64,
+          "peptide_author_residue": 2,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 65,
+          "peptide_author_residue": 2,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 66,
+          "peptide_author_residue": 2,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 67,
+          "peptide_author_residue": 2,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 68,
+          "peptide_author_residue": 2,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 58,
+          "peptide_author_residue": 3,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 50,
+          "peptide_author_residue": 3,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 48,
+          "peptide_author_residue": 3,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 49,
+          "peptide_author_residue": 3,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 51,
+          "peptide_author_residue": 3,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 52,
+          "peptide_author_residue": 3,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 53,
+          "peptide_author_residue": 3,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 54,
+          "peptide_author_residue": 3,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 55,
+          "peptide_author_residue": 3,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 56,
+          "peptide_author_residue": 3,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 57,
+          "peptide_author_residue": 3,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 47,
+          "peptide_author_residue": 4,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 39,
+          "peptide_author_residue": 4,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 37,
+          "peptide_author_residue": 4,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 38,
+          "peptide_author_residue": 4,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 40,
+          "peptide_author_residue": 4,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 41,
+          "peptide_author_residue": 4,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 42,
+          "peptide_author_residue": 4,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 43,
+          "peptide_author_residue": 4,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 44,
+          "peptide_author_residue": 4,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 45,
+          "peptide_author_residue": 4,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 46,
+          "peptide_author_residue": 4,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 36,
+          "peptide_author_residue": 5,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 35,
+          "peptide_author_residue": 5,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "R"
+        },
+        {
+          "smiles_atom_index": 33,
+          "peptide_author_residue": 5,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 34,
+          "peptide_author_residue": 5,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 84,
+          "peptide_author_residue": 5,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 85,
+          "peptide_author_residue": 5,
+          "atom_name": "SG",
+          "element": "S",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 32,
+          "peptide_author_residue": 6,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 28,
+          "peptide_author_residue": 6,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 26,
+          "peptide_author_residue": 6,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 27,
+          "peptide_author_residue": 6,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 29,
+          "peptide_author_residue": 6,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 30,
+          "peptide_author_residue": 6,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 31,
+          "peptide_author_residue": 6,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 25,
+          "peptide_author_residue": 7,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 20,
+          "peptide_author_residue": 7,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 18,
+          "peptide_author_residue": 7,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 19,
+          "peptide_author_residue": 7,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 21,
+          "peptide_author_residue": 7,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 22,
+          "peptide_author_residue": 7,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 23,
+          "peptide_author_residue": 7,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 24,
+          "peptide_author_residue": 7,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 17,
+          "peptide_author_residue": 8,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 8,
+          "peptide_author_residue": 8,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 6,
+          "peptide_author_residue": 8,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 7,
+          "peptide_author_residue": 8,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 9,
+          "peptide_author_residue": 8,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 10,
+          "peptide_author_residue": 8,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 11,
+          "peptide_author_residue": 8,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 16,
+          "peptide_author_residue": 8,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 12,
+          "peptide_author_residue": 8,
+          "atom_name": "CE1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 15,
+          "peptide_author_residue": 8,
+          "atom_name": "CE2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 13,
+          "peptide_author_residue": 8,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 14,
+          "peptide_author_residue": 8,
+          "atom_name": "OH",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 5,
+          "peptide_author_residue": 9,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 4,
+          "peptide_author_residue": 9,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 177,
+          "peptide_author_residue": 9,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 178,
+          "peptide_author_residue": 9,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 2,
+          "peptide_author_residue": 9,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 3,
+          "peptide_author_residue": 9,
+          "atom_name": "CG1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 1,
+          "peptide_author_residue": 9,
+          "atom_name": "CG2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 0,
+          "peptide_author_residue": 9,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 176,
+          "peptide_author_residue": 10,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 173,
+          "peptide_author_residue": 10,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 171,
+          "peptide_author_residue": 10,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 172,
+          "peptide_author_residue": 10,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 174,
+          "peptide_author_residue": 10,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 175,
+          "peptide_author_residue": 10,
+          "atom_name": "OG",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 170,
+          "peptide_author_residue": 11,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 161,
+          "peptide_author_residue": 11,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 159,
+          "peptide_author_residue": 11,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 160,
+          "peptide_author_residue": 11,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 162,
+          "peptide_author_residue": 11,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 163,
+          "peptide_author_residue": 11,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 164,
+          "peptide_author_residue": 11,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 169,
+          "peptide_author_residue": 11,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 165,
+          "peptide_author_residue": 11,
+          "atom_name": "CE1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 168,
+          "peptide_author_residue": 11,
+          "atom_name": "CE2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 166,
+          "peptide_author_residue": 11,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 167,
+          "peptide_author_residue": 11,
+          "atom_name": "OH",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 158,
+          "peptide_author_residue": 12,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 153,
+          "peptide_author_residue": 12,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 151,
+          "peptide_author_residue": 12,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 152,
+          "peptide_author_residue": 12,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 154,
+          "peptide_author_residue": 12,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 155,
+          "peptide_author_residue": 12,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 156,
+          "peptide_author_residue": 12,
+          "atom_name": "OD1",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 157,
+          "peptide_author_residue": 12,
+          "atom_name": "OD2",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 150,
+          "peptide_author_residue": 13,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 146,
+          "peptide_author_residue": 13,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 144,
+          "peptide_author_residue": 13,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 145,
+          "peptide_author_residue": 13,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 147,
+          "peptide_author_residue": 13,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 148,
+          "peptide_author_residue": 13,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 149,
+          "peptide_author_residue": 13,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 143,
+          "peptide_author_residue": 14,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 139,
+          "peptide_author_residue": 14,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 137,
+          "peptide_author_residue": 14,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 138,
+          "peptide_author_residue": 14,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 140,
+          "peptide_author_residue": 14,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 141,
+          "peptide_author_residue": 14,
+          "atom_name": "CG1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 142,
+          "peptide_author_residue": 14,
+          "atom_name": "CG2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 136,
+          "peptide_author_residue": 15,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 88,
+          "peptide_author_residue": 15,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "R"
+        },
+        {
+          "smiles_atom_index": 89,
+          "peptide_author_residue": 15,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 90,
+          "peptide_author_residue": 15,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 87,
+          "peptide_author_residue": 15,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 86,
+          "peptide_author_residue": 15,
+          "atom_name": "SG",
+          "element": "S",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 91,
+          "peptide_author_residue": 16,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 92,
+          "peptide_author_residue": 16,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 100,
+          "peptide_author_residue": 16,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 101,
+          "peptide_author_residue": 16,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 93,
+          "peptide_author_residue": 16,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 94,
+          "peptide_author_residue": 16,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 95,
+          "peptide_author_residue": 16,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 96,
+          "peptide_author_residue": 16,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 97,
+          "peptide_author_residue": 16,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 98,
+          "peptide_author_residue": 16,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 99,
+          "peptide_author_residue": 16,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 102,
+          "peptide_author_residue": 17,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 103,
+          "peptide_author_residue": 17,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 111,
+          "peptide_author_residue": 17,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 112,
+          "peptide_author_residue": 17,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 104,
+          "peptide_author_residue": 17,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 105,
+          "peptide_author_residue": 17,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 106,
+          "peptide_author_residue": 17,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 107,
+          "peptide_author_residue": 17,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 108,
+          "peptide_author_residue": 17,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 109,
+          "peptide_author_residue": 17,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 110,
+          "peptide_author_residue": 17,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 113,
+          "peptide_author_residue": 18,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 114,
+          "peptide_author_residue": 18,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 122,
+          "peptide_author_residue": 18,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 123,
+          "peptide_author_residue": 18,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 115,
+          "peptide_author_residue": 18,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 116,
+          "peptide_author_residue": 18,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 117,
+          "peptide_author_residue": 18,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 118,
+          "peptide_author_residue": 18,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 119,
+          "peptide_author_residue": 18,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 120,
+          "peptide_author_residue": 18,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 121,
+          "peptide_author_residue": 18,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 124,
+          "peptide_author_residue": 19,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 125,
+          "peptide_author_residue": 19,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 133,
+          "peptide_author_residue": 19,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 135,
+          "peptide_author_residue": 19,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 126,
+          "peptide_author_residue": 19,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 127,
+          "peptide_author_residue": 19,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 128,
+          "peptide_author_residue": 19,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 129,
+          "peptide_author_residue": 19,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 130,
+          "peptide_author_residue": 19,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 131,
+          "peptide_author_residue": 19,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 132,
+          "peptide_author_residue": 19,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 134,
+          "peptide_author_residue": 20,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 82,
+          "peptide_author_residue": 0,
+          "atom_name": "CH3",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 81,
+          "peptide_author_residue": 0,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 83,
+          "peptide_author_residue": 0,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        }
+      ],
+      "links": [
+        {
+          "endpoints": [
+            [
+              0,
+              "C"
+            ],
+            [
+              1,
+              "N"
+            ]
+          ],
+          "smiles_indices": [
+            81,
+            80
+          ]
+        },
+        {
+          "endpoints": [
+            [
+              5,
+              "SG"
+            ],
+            [
+              15,
+              "SG"
+            ]
+          ],
+          "smiles_indices": [
+            85,
+            86
+          ]
+        },
+        {
+          "endpoints": [
+            [
+              19,
+              "C"
+            ],
+            [
+              20,
+              "N"
+            ]
+          ],
+          "smiles_indices": [
+            133,
+            134
+          ]
+        }
+      ],
+      "heavy_atoms": 179,
+      "stereocenters": 20,
+      "formal_charge": 8,
+      "formula": "C108H190N44O25S2+8",
+      "molecular_weight_Da": 2569.1249999999973,
+      "charge_policy": "Pinned Boltz CCD reference: Arg guanidinium +1 each; Asp neutral COOH. This is not a pH/pKa prediction.",
+      "affinity_requested": false,
+      "source_coordinates_used": false,
+      "schema": {
+        "version": 1,
+        "sequences": [
+          {
+            "protein": {
+              "id": "A",
+              "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+              "msa": "empty"
+            }
+          },
+          {
+            "ligand": {
+              "id": "B",
+              "smiles": "CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC1=O"
+            }
+          },
+          {
+            "ligand": {
+              "id": "C",
+              "ccd": "GDP"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCRAMBLE-20260914",
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "smiles": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]2CCCN2C(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC(=O)[C@@H]2CCCN2C(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC1=O",
+      "atom_map": [
+        {
+          "smiles_atom_index": 53,
+          "peptide_author_residue": 1,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 45,
+          "peptide_author_residue": 1,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 43,
+          "peptide_author_residue": 1,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 44,
+          "peptide_author_residue": 1,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 46,
+          "peptide_author_residue": 1,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 47,
+          "peptide_author_residue": 1,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 48,
+          "peptide_author_residue": 1,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 49,
+          "peptide_author_residue": 1,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 50,
+          "peptide_author_residue": 1,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 51,
+          "peptide_author_residue": 1,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 52,
+          "peptide_author_residue": 1,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 42,
+          "peptide_author_residue": 2,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 34,
+          "peptide_author_residue": 2,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 32,
+          "peptide_author_residue": 2,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 33,
+          "peptide_author_residue": 2,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 35,
+          "peptide_author_residue": 2,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 36,
+          "peptide_author_residue": 2,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 37,
+          "peptide_author_residue": 2,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 38,
+          "peptide_author_residue": 2,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 39,
+          "peptide_author_residue": 2,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 40,
+          "peptide_author_residue": 2,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 41,
+          "peptide_author_residue": 2,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 31,
+          "peptide_author_residue": 3,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 23,
+          "peptide_author_residue": 3,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 21,
+          "peptide_author_residue": 3,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 22,
+          "peptide_author_residue": 3,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 24,
+          "peptide_author_residue": 3,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 25,
+          "peptide_author_residue": 3,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 26,
+          "peptide_author_residue": 3,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 27,
+          "peptide_author_residue": 3,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 28,
+          "peptide_author_residue": 3,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 29,
+          "peptide_author_residue": 3,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 30,
+          "peptide_author_residue": 3,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 20,
+          "peptide_author_residue": 4,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 12,
+          "peptide_author_residue": 4,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 10,
+          "peptide_author_residue": 4,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 11,
+          "peptide_author_residue": 4,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 13,
+          "peptide_author_residue": 4,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 14,
+          "peptide_author_residue": 4,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 15,
+          "peptide_author_residue": 4,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 16,
+          "peptide_author_residue": 4,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 17,
+          "peptide_author_residue": 4,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 18,
+          "peptide_author_residue": 4,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 19,
+          "peptide_author_residue": 4,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 9,
+          "peptide_author_residue": 5,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 8,
+          "peptide_author_residue": 5,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "R"
+        },
+        {
+          "smiles_atom_index": 6,
+          "peptide_author_residue": 5,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 7,
+          "peptide_author_residue": 5,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 57,
+          "peptide_author_residue": 5,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 58,
+          "peptide_author_residue": 5,
+          "atom_name": "SG",
+          "element": "S",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 5,
+          "peptide_author_residue": 6,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 4,
+          "peptide_author_residue": 6,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 177,
+          "peptide_author_residue": 6,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 178,
+          "peptide_author_residue": 6,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 2,
+          "peptide_author_residue": 6,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 3,
+          "peptide_author_residue": 6,
+          "atom_name": "CG1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 1,
+          "peptide_author_residue": 6,
+          "atom_name": "CG2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 0,
+          "peptide_author_residue": 6,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 176,
+          "peptide_author_residue": 7,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 171,
+          "peptide_author_residue": 7,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 169,
+          "peptide_author_residue": 7,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 170,
+          "peptide_author_residue": 7,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 172,
+          "peptide_author_residue": 7,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 173,
+          "peptide_author_residue": 7,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 174,
+          "peptide_author_residue": 7,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 175,
+          "peptide_author_residue": 7,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 168,
+          "peptide_author_residue": 8,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 164,
+          "peptide_author_residue": 8,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 162,
+          "peptide_author_residue": 8,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 163,
+          "peptide_author_residue": 8,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 165,
+          "peptide_author_residue": 8,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 166,
+          "peptide_author_residue": 8,
+          "atom_name": "CG1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 167,
+          "peptide_author_residue": 8,
+          "atom_name": "CG2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 161,
+          "peptide_author_residue": 9,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 157,
+          "peptide_author_residue": 9,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 155,
+          "peptide_author_residue": 9,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 156,
+          "peptide_author_residue": 9,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 158,
+          "peptide_author_residue": 9,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 159,
+          "peptide_author_residue": 9,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 160,
+          "peptide_author_residue": 9,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 154,
+          "peptide_author_residue": 10,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 151,
+          "peptide_author_residue": 10,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 149,
+          "peptide_author_residue": 10,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 150,
+          "peptide_author_residue": 10,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 152,
+          "peptide_author_residue": 10,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 153,
+          "peptide_author_residue": 10,
+          "atom_name": "OG",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 148,
+          "peptide_author_residue": 11,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 139,
+          "peptide_author_residue": 11,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 137,
+          "peptide_author_residue": 11,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 138,
+          "peptide_author_residue": 11,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 140,
+          "peptide_author_residue": 11,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 141,
+          "peptide_author_residue": 11,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 142,
+          "peptide_author_residue": 11,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 147,
+          "peptide_author_residue": 11,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 143,
+          "peptide_author_residue": 11,
+          "atom_name": "CE1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 146,
+          "peptide_author_residue": 11,
+          "atom_name": "CE2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 144,
+          "peptide_author_residue": 11,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 145,
+          "peptide_author_residue": 11,
+          "atom_name": "OH",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 136,
+          "peptide_author_residue": 12,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 127,
+          "peptide_author_residue": 12,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 125,
+          "peptide_author_residue": 12,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 126,
+          "peptide_author_residue": 12,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 128,
+          "peptide_author_residue": 12,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 129,
+          "peptide_author_residue": 12,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 130,
+          "peptide_author_residue": 12,
+          "atom_name": "CD1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 135,
+          "peptide_author_residue": 12,
+          "atom_name": "CD2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 131,
+          "peptide_author_residue": 12,
+          "atom_name": "CE1",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 134,
+          "peptide_author_residue": 12,
+          "atom_name": "CE2",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 132,
+          "peptide_author_residue": 12,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 133,
+          "peptide_author_residue": 12,
+          "atom_name": "OH",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 124,
+          "peptide_author_residue": 13,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 120,
+          "peptide_author_residue": 13,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 118,
+          "peptide_author_residue": 13,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 119,
+          "peptide_author_residue": 13,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 121,
+          "peptide_author_residue": 13,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 122,
+          "peptide_author_residue": 13,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 123,
+          "peptide_author_residue": 13,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 117,
+          "peptide_author_residue": 14,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 112,
+          "peptide_author_residue": 14,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 110,
+          "peptide_author_residue": 14,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 111,
+          "peptide_author_residue": 14,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 113,
+          "peptide_author_residue": 14,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 114,
+          "peptide_author_residue": 14,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 115,
+          "peptide_author_residue": 14,
+          "atom_name": "OD1",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 116,
+          "peptide_author_residue": 14,
+          "atom_name": "OD2",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 109,
+          "peptide_author_residue": 15,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 61,
+          "peptide_author_residue": 15,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "R"
+        },
+        {
+          "smiles_atom_index": 62,
+          "peptide_author_residue": 15,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 63,
+          "peptide_author_residue": 15,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 60,
+          "peptide_author_residue": 15,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 59,
+          "peptide_author_residue": 15,
+          "atom_name": "SG",
+          "element": "S",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 64,
+          "peptide_author_residue": 16,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 65,
+          "peptide_author_residue": 16,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 73,
+          "peptide_author_residue": 16,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 74,
+          "peptide_author_residue": 16,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 66,
+          "peptide_author_residue": 16,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 67,
+          "peptide_author_residue": 16,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 68,
+          "peptide_author_residue": 16,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 69,
+          "peptide_author_residue": 16,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 70,
+          "peptide_author_residue": 16,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 71,
+          "peptide_author_residue": 16,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 72,
+          "peptide_author_residue": 16,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 75,
+          "peptide_author_residue": 17,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 76,
+          "peptide_author_residue": 17,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 84,
+          "peptide_author_residue": 17,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 85,
+          "peptide_author_residue": 17,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 77,
+          "peptide_author_residue": 17,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 78,
+          "peptide_author_residue": 17,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 79,
+          "peptide_author_residue": 17,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 80,
+          "peptide_author_residue": 17,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 81,
+          "peptide_author_residue": 17,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 82,
+          "peptide_author_residue": 17,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 83,
+          "peptide_author_residue": 17,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 86,
+          "peptide_author_residue": 18,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 87,
+          "peptide_author_residue": 18,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 95,
+          "peptide_author_residue": 18,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 96,
+          "peptide_author_residue": 18,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 88,
+          "peptide_author_residue": 18,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 89,
+          "peptide_author_residue": 18,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 90,
+          "peptide_author_residue": 18,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 91,
+          "peptide_author_residue": 18,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 92,
+          "peptide_author_residue": 18,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 93,
+          "peptide_author_residue": 18,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 94,
+          "peptide_author_residue": 18,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 97,
+          "peptide_author_residue": 19,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 98,
+          "peptide_author_residue": 19,
+          "atom_name": "CA",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": "S"
+        },
+        {
+          "smiles_atom_index": 106,
+          "peptide_author_residue": 19,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 108,
+          "peptide_author_residue": 19,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 99,
+          "peptide_author_residue": 19,
+          "atom_name": "CB",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 100,
+          "peptide_author_residue": 19,
+          "atom_name": "CG",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 101,
+          "peptide_author_residue": 19,
+          "atom_name": "CD",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 102,
+          "peptide_author_residue": 19,
+          "atom_name": "NE",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 103,
+          "peptide_author_residue": 19,
+          "atom_name": "CZ",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 104,
+          "peptide_author_residue": 19,
+          "atom_name": "NH1",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 105,
+          "peptide_author_residue": 19,
+          "atom_name": "NH2",
+          "element": "N",
+          "formal_charge": 1,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 107,
+          "peptide_author_residue": 20,
+          "atom_name": "N",
+          "element": "N",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 55,
+          "peptide_author_residue": 0,
+          "atom_name": "CH3",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 54,
+          "peptide_author_residue": 0,
+          "atom_name": "C",
+          "element": "C",
+          "formal_charge": 0,
+          "CIP": null
+        },
+        {
+          "smiles_atom_index": 56,
+          "peptide_author_residue": 0,
+          "atom_name": "O",
+          "element": "O",
+          "formal_charge": 0,
+          "CIP": null
+        }
+      ],
+      "links": [
+        {
+          "endpoints": [
+            [
+              0,
+              "C"
+            ],
+            [
+              1,
+              "N"
+            ]
+          ],
+          "smiles_indices": [
+            54,
+            53
+          ]
+        },
+        {
+          "endpoints": [
+            [
+              5,
+              "SG"
+            ],
+            [
+              15,
+              "SG"
+            ]
+          ],
+          "smiles_indices": [
+            58,
+            59
+          ]
+        },
+        {
+          "endpoints": [
+            [
+              19,
+              "C"
+            ],
+            [
+              20,
+              "N"
+            ]
+          ],
+          "smiles_indices": [
+            106,
+            107
+          ]
+        }
+      ],
+      "heavy_atoms": 179,
+      "stereocenters": 20,
+      "formal_charge": 8,
+      "formula": "C108H190N44O25S2+8",
+      "molecular_weight_Da": 2569.124999999997,
+      "charge_policy": "Pinned Boltz CCD reference: Arg guanidinium +1 each; Asp neutral COOH. This is not a pH/pKa prediction.",
+      "affinity_requested": false,
+      "source_coordinates_used": false,
+      "schema": {
+        "version": 1,
+        "sequences": [
+          {
+            "protein": {
+              "id": "A",
+              "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+              "msa": "empty"
+            }
+          },
+          {
+            "ligand": {
+              "id": "B",
+              "smiles": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]2CCCN2C(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC(=O)[C@@H]2CCCN2C(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC1=O"
+            }
+          },
+          {
+            "ligand": {
+              "id": "C",
+              "ccd": "GDP"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

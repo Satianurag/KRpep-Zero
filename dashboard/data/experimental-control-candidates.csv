@@ -1,0 +1,11 @@
+source_compound_id,parent,source_modification,target,nucleotide,assay,endpoint,relation,value_nM,source_table,source_url,chemistry_family,model_input_ready,inference_performed
+MP-1687,MP-1687,Parent,KRAS G12D,GDP,TR-FRET,EC50,=,60,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+5,MP-1687,Pro6Ala,KRAS G12D,GDP,TR-FRET,EC50,>,48080,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+6,MP-1687,Leu7Ala,KRAS G12D,GDP,TR-FRET,EC50,>,48080,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+7,MP-1687,Tyr8Ala,KRAS G12D,GDP,TR-FRET,EC50,=,691,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+8,MP-1687,Ile9Ala,KRAS G12D,GDP,TR-FRET,EC50,>,48080,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+9,MP-1687,Ser10Ala,KRAS G12D,GDP,TR-FRET,EC50,=,1072,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+10,MP-1687,Tyr11Ala,KRAS G12D,GDP,TR-FRET,EC50,=,2430,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+11,MP-1687,Asp12Ala,KRAS G12D,GDP,TR-FRET,EC50,>,48080,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+12,MP-1687,Pro13Ala,KRAS G12D,GDP,TR-FRET,EC50,=,427,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False
+13,MP-1687,Val14Ala,KRAS G12D,GDP,TR-FRET,EC50,=,161,Lim et al. 2021 Table 2,https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/,D-Cys thioacetal modified peptide; not original KRpep-2d,False,False

@@ -1,0 +1,166 @@
+{
+  "KRpep-2d": {
+    "version": 1,
+    "sequences": [
+      {
+        "protein": {
+          "id": "A",
+          "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+          "msa": "empty"
+        }
+      },
+      {
+        "protein": {
+          "id": "B",
+          "sequence": "RRRRCPLYISYDPVCRRRR",
+          "msa": "empty",
+          "cyclic": false
+        }
+      },
+      {
+        "ligand": {
+          "id": "C",
+          "ccd": "GDP"
+        }
+      },
+      {
+        "ligand": {
+          "id": "D",
+          "ccd": "ACE"
+        }
+      },
+      {
+        "ligand": {
+          "id": "E",
+          "ccd": "NH2"
+        }
+      }
+    ],
+    "constraints": [
+      {
+        "bond": {
+          "atom1": [
+            "D",
+            1,
+            "C"
+          ],
+          "atom2": [
+            "B",
+            1,
+            "N"
+          ]
+        }
+      },
+      {
+        "bond": {
+          "atom1": [
+            "B",
+            5,
+            "SG"
+          ],
+          "atom2": [
+            "B",
+            15,
+            "SG"
+          ]
+        }
+      },
+      {
+        "bond": {
+          "atom1": [
+            "B",
+            19,
+            "C"
+          ],
+          "atom2": [
+            "E",
+            1,
+            "N"
+          ]
+        }
+      }
+    ]
+  },
+  "SCRAMBLE-20260914": {
+    "version": 1,
+    "sequences": [
+      {
+        "protein": {
+          "id": "A",
+          "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+          "msa": "empty"
+        }
+      },
+      {
+        "protein": {
+          "id": "B",
+          "sequence": "RRRRCILVPSYYPDCRRRR",
+          "msa": "empty",
+          "cyclic": false
+        }
+      },
+      {
+        "ligand": {
+          "id": "C",
+          "ccd": "GDP"
+        }
+      },
+      {
+        "ligand": {
+          "id": "D",
+          "ccd": "ACE"
+        }
+      },
+      {
+        "ligand": {
+          "id": "E",
+          "ccd": "NH2"
+        }
+      }
+    ],
+    "constraints": [
+      {
+        "bond": {
+          "atom1": [
+            "D",
+            1,
+            "C"
+          ],
+          "atom2": [
+            "B",
+            1,
+            "N"
+          ]
+        }
+      },
+      {
+        "bond": {
+          "atom1": [
+            "B",
+            5,
+            "SG"
+          ],
+          "atom2": [
+            "B",
+            15,
+            "SG"
+          ]
+        }
+      },
+      {
+        "bond": {
+          "atom1": [
+            "B",
+            19,
+            "C"
+          ],
+          "atom2": [
+            "E",
+            1,
+            "N"
+          ]
+        }
+      }
+    ]
+  }
+}

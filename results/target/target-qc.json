@@ -1,0 +1,66 @@
+{
+  "pdb": "5XCO",
+  "resolution_A": 1.25,
+  "construct": "KRAS1-169",
+  "state": "GDP",
+  "mutations_vs_uniprot_P01116_2": [
+    [
+      12,
+      "G",
+      "D"
+    ]
+  ],
+  "target_isoform": "KRAS4B P01116-2",
+  "target_chain": "A",
+  "peptide_chain": "B",
+  "target_length": 169,
+  "positive_control_sequence": "RRRRCPLYISYDPVCRRRR",
+  "positive_control_length": 19,
+  "disulfide_peptide_positions": [
+    5,
+    15
+  ],
+  "termini": [
+    "ACE B:0",
+    "NH2 B:20"
+  ],
+  "contacts_heavy_atom_4A": [
+    58,
+    61,
+    62,
+    63,
+    64,
+    68,
+    69,
+    72,
+    73,
+    95,
+    96,
+    99,
+    102,
+    103
+  ],
+  "contacts_heavy_atom_5A": [
+    9,
+    58,
+    61,
+    62,
+    63,
+    64,
+    68,
+    69,
+    72,
+    73,
+    95,
+    96,
+    99,
+    102,
+    103
+  ],
+  "method": "asymmetric unit, target1-169 vs peptide B0-20 including caps; non-H, occupancy>0, altloc blank/A; no waters or crystal mates",
+  "uniprot_mapping": {
+    "P01116": "KRAS",
+    "P01111": "NRAS",
+    "P01112": "HRAS"
+  }
+}

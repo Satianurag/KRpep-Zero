@@ -1,0 +1,164 @@
+{
+  "sequences": {
+    "P01116": {
+      "protein": "KRAS4A",
+      "source": "results/target/P01116.json",
+      "length": 189,
+      "sha256": "1d5a9ab11f64cb886d8ffa08a153c412b2d190fcf70e5690cd4b4c7efcdee53a"
+    },
+    "P01111": {
+      "protein": "NRAS",
+      "source": "results/target/P01111.json",
+      "length": 189,
+      "sha256": "89016168d82568aa2caa97166c99ff0b61c6fb19d5729272a7e3f03ab26ce518"
+    },
+    "P01112": {
+      "protein": "HRAS",
+      "source": "results/target/P01112.json",
+      "length": 189,
+      "sha256": "d9360238882c010c8474ef1eba1d2532cd96e706c7d7f689ea2014f37f8f886c"
+    },
+    "P01116-2": {
+      "protein": "KRAS4B",
+      "source": "results/target/P01116-2.fasta",
+      "length": 188,
+      "sha256": "9a0ed04ef46e15865a90f9dd0808d7d12c94746c66b0f41228aa2e62516ccbca"
+    }
+  },
+  "alignment": {
+    "algorithm": "center-star global pairwise protein alignment",
+    "center_accession": "P01116",
+    "alignment_length": 191,
+    "pairwise_substitution_matrix": "BLOSUM62",
+    "gap_open": -10.0,
+    "gap_extend": -0.5,
+    "center_score_sums": {
+      "P01116": 3537.0,
+      "P01111": 3480.0,
+      "P01112": 3502.0,
+      "P01116-2": 3471.0
+    },
+    "biopython_version": "1.88",
+    "python_version": "3.12.14"
+  },
+  "accession_mapping": {
+    "P01116": {
+      "gene": "KRAS",
+      "isoform": "KRAS4A",
+      "canonical_json": true
+    },
+    "P01111": {
+      "gene": "NRAS",
+      "isoform": "NRAS",
+      "canonical_json": true
+    },
+    "P01112": {
+      "gene": "HRAS",
+      "isoform": "HRAS",
+      "canonical_json": true
+    },
+    "P01116-2": {
+      "gene": "KRAS",
+      "isoform": "KRAS4B",
+      "canonical_json": false
+    }
+  },
+  "construct_context": {
+    "pdb": "5XCO",
+    "construct": "KRAS4B 1-169 (P01116-2)",
+    "state": "GDP",
+    "variant_vs_P01116-2": "G12D at source position 12",
+    "P01116_KRAS4A_differences_within_1_169_vs_KRAS4B": [
+      151,
+      153,
+      165,
+      166,
+      167,
+      168
+    ]
+  },
+  "hotspots": {
+    "12": {
+      "P01116": {
+        "protein": "KRAS4A",
+        "source_position": 12,
+        "residue": "G",
+        "alignment_column": 12
+      },
+      "P01111": {
+        "protein": "NRAS",
+        "source_position": 12,
+        "residue": "G",
+        "alignment_column": 12
+      },
+      "P01112": {
+        "protein": "HRAS",
+        "source_position": 12,
+        "residue": "G",
+        "alignment_column": 12
+      },
+      "P01116-2": {
+        "protein": "KRAS4B",
+        "source_position": 12,
+        "residue": "G",
+        "alignment_column": 12
+      }
+    },
+    "13": {
+      "P01116": {
+        "protein": "KRAS4A",
+        "source_position": 13,
+        "residue": "G",
+        "alignment_column": 13
+      },
+      "P01111": {
+        "protein": "NRAS",
+        "source_position": 13,
+        "residue": "G",
+        "alignment_column": 13
+      },
+      "P01112": {
+        "protein": "HRAS",
+        "source_position": 13,
+        "residue": "G",
+        "alignment_column": 13
+      },
+      "P01116-2": {
+        "protein": "KRAS4B",
+        "source_position": 13,
+        "residue": "G",
+        "alignment_column": 13
+      }
+    },
+    "61": {
+      "P01116": {
+        "protein": "KRAS4A",
+        "source_position": 61,
+        "residue": "Q",
+        "alignment_column": 61
+      },
+      "P01111": {
+        "protein": "NRAS",
+        "source_position": 61,
+        "residue": "Q",
+        "alignment_column": 61
+      },
+      "P01112": {
+        "protein": "HRAS",
+        "source_position": 61,
+        "residue": "Q",
+        "alignment_column": 61
+      },
+      "P01116-2": {
+        "protein": "KRAS4B",
+        "source_position": 61,
+        "residue": "Q",
+        "alignment_column": 61
+      }
+    }
+  },
+  "outputs": [
+    "results/target/ras-aligned.fasta",
+    "results/target/alignment-mapping.csv"
+  ]
+}

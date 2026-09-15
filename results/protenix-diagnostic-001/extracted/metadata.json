@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "bytes": 490777362,
+      "name": "common/components.cif",
+      "sha256": "bb31ae5cf6c8bc669924313077cb4231ee5ffefd3a20118cd14f3ec89f8bb6a5"
+    },
+    {
+      "bytes": 142498117,
+      "name": "common/components.cif.rdkit_mol.pkl",
+      "sha256": "d1cfb71f5993a3ebea7c47877022d7f597bbfbaf86e28a4770e957da6c50cd35"
+    },
+    {
+      "bytes": 21699572,
+      "name": "common/clusters-by-entity-40.txt",
+      "sha256": "1ab4af905e75b382eda8dec59917dc3608bee0729e36b9e71baf860bbe86850c"
+    },
+    {
+      "bytes": 134716,
+      "name": "common/obsolete_release_date.csv",
+      "sha256": "a4f3f63ac5d7eebd78b07995cc669b9eccd6f5d8813c9492c9df02868893cf33"
+    }
+  ],
+  "command": [
+    "protenix",
+    "pred",
+    "-i",
+    "<runtime-path>",
+    "-o",
+    "<runtime-path>",
+    "-s",
+    "17,42,101",
+    "-n",
+    "protenix-v2",
+    "-c",
+    "10",
+    "-p",
+    "200",
+    "-e",
+    "1",
+    "--use_default_params",
+    "false",
+    "--use_msa",
+    "true",
+    "--use_template",
+    "false",
+    "--use_rna_msa",
+    "false",
+    "--trimul_kernel",
+    "torch",
+    "--triatt_kernel",
+    "torch",
+    "--enable_fusion",
+    "false"
+  ],
+  "elapsed_seconds": 389.7072274684906,
+  "error": "RuntimeError: Protenix exited 1",
+  "exit_code": 1,
+  "gpu": "L4",
+  "input_sha256": "a9e3ec27ae8114ad57d9335e61e7587917024fc3c00a6f84272b5fb016024693",
+  "model": "protenix-v2",
+  "msa_sha256": "97457161922c3b2a0f73f1b38ad987f3c22220802832717bcd93dfa4194d4676",
+  "protocol_sha256": "1cf9e81805e2897578ab59294323307bd4b69f52d9277b442995aaf4a5d088c2",
+  "public_receipt_scope": "Sanitized Protenix diagnostic receipt; host paths, raw logs, archives, provider account data and model weights omitted.",
+  "scope": "exploratory cross-model control diagnostic; no binding classifier validation; old gates unchanged",
+  "source_commit": "4c355be4553512f72453ecbfb65e69f4c35d1413"
+}

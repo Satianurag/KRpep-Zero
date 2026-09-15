@@ -1,0 +1,16 @@
+.venv/
+.venv-esm/
+.venv-*/
+.tools/
+.firecrawl/
+.env
+.env.*
+!.env.example
+**/__pycache__/
+setup/private/
+# Public exports are explicitly allowlisted; retain private operational records locally.
+setup/
+results/logs/
+results/sources/
+dist/
+.DS_Store

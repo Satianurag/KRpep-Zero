@@ -1,0 +1,3 @@
+# Saved positive-pose audit
+
+Deterministic metrics for all six KRpep-2d positive predictions (v1/v2; seeds 17, 42, 101) against 5XCO. Target fitting uses residues 1–169. Peptide metrics use residues 1–19 and exclude ACE/NH2/GDP. Contact recovery is a custom F_nat-like residue-pair metric at a 5 Å heavy-atom cutoff. Pairs under 2 Å are reported as a geometric diagnostic, not a chemical clash-energy result. Omega states use cis ≤30° and trans ≥150° by absolute dihedral angle; intermediate values are retained. No threshold or decision gate is added. Input SHA-256 hashes are recorded in `pose-audit.json`.

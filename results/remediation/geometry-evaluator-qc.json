@@ -1,0 +1,16 @@
+[
+  {
+    "id": "KRpep-2d",
+    "unmodified_ETKDG_centers_correct": 20,
+    "mirror_centers_inverted": 20,
+    "artificial_0_7_A_cap_bond_rejected": true,
+    "scope": "evaluator self-check on input conformers, not neural predictions"
+  },
+  {
+    "id": "SCRAMBLE-20260914",
+    "unmodified_ETKDG_centers_correct": 20,
+    "mirror_centers_inverted": 20,
+    "artificial_0_7_A_cap_bond_rejected": true,
+    "scope": "evaluator self-check on input conformers, not neural predictions"
+  }
+]

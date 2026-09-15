@@ -1,0 +1,86 @@
+[
+  {
+    "topic": "Target",
+    "claim": "KRAS4B G12D 1-169 with GDP, matched to 5XCO",
+    "evidence": "results/target/target-qc.json",
+    "permitted_interpretation": "Coordinate-derived construct and pocket",
+    "limitation": "The reference is experimental; no novel design is implied."
+  },
+  {
+    "topic": "Published affinity",
+    "claim": "KRpep-2d GDP SPR KD 8.9 nM G12D, 58 nM WT",
+    "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5512123/table/tbl1/",
+    "permitted_interpretation": "Published assay-specific values",
+    "limitation": "Do not relabel IC50 as KD or imply these values were measured by this campaign."
+  },
+  {
+    "topic": "Control chemistry",
+    "claim": "Original control is capped disulfide peptide; modified MP series has different stereochemistry and linker",
+    "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/",
+    "permitted_interpretation": "Distinct molecules and assay context",
+    "limitation": "Cis D-Cys5-Pro6 and D-Arg changes belong to specified MP derivatives."
+  },
+  {
+    "topic": "Sequence model",
+    "claim": "ESMC masked-residue calculations completed",
+    "evidence": "results/esm/metadata.json",
+    "permitted_interpretation": "Sequence-model technical checks",
+    "limitation": "Not pocket affinity, hotspot experimental validation or mutant selectivity."
+  },
+  {
+    "topic": "First calibration",
+    "claim": "V1 separation failed",
+    "evidence": "results/controls/gate-summary.json",
+    "permitted_interpretation": "Observed within-v1 positive-minus-scramble gap",
+    "limitation": "V1 remains failed and its post-run geometry findings are diagnostics."
+  },
+  {
+    "topic": "Second calibration",
+    "claim": "V2 chemistry passed; separation failed",
+    "evidence": "results/control-remediation-v2-002/analysis/gate-summary.json",
+    "permitted_interpretation": "Declared chemical checks and within-v2 confidence gap",
+    "limitation": "No absolute confidence comparison across different tokenizations."
+  },
+  {
+    "topic": "Sample size",
+    "claim": "12 predictions of 2 control identities across 2 representations",
+    "evidence": "results/controls/per-seed.csv; results/control-remediation-v2-002/analysis/per-seed.csv",
+    "permitted_interpretation": "Model sampling replicates",
+    "limitation": "Not 12 independent peptides, experiments or biological replicates."
+  },
+  {
+    "topic": "New benchmark candidates",
+    "claim": "10 reported MP-1687 series assay entries including parent",
+    "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8672774/table/tab2/",
+    "permitted_interpretation": "Curated experimental EC50 values and greater-than bounds",
+    "limitation": "These are literature entries, not new predictions; exact noncanonical structures require verification."
+  },
+  {
+    "topic": "Training dependence",
+    "claim": "Published peptide-docking benchmark reports training bias and high-confidence incorrect poses",
+    "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12518507/",
+    "permitted_interpretation": "Context for independent pose validation",
+    "limitation": "Does not diagnose the mechanism of this campaign failure."
+  },
+  {
+    "topic": "Recent cyclic benchmark",
+    "claim": "2026 preprint separates pose generation and ranking limitations",
+    "evidence": "https://www.biorxiv.org/content/10.64898/2026.08.20.746104v1.full",
+    "permitted_interpretation": "Relevant, explicitly unreviewed context",
+    "limitation": "Known-complex pose benchmark; not evidence of experimental binder classification."
+  },
+  {
+    "topic": "Discovery outcome",
+    "claim": "No selected novel peptide or WT counter-screen result",
+    "evidence": "CAMPAIGN_STATE.json",
+    "permitted_interpretation": "Candidate pipeline stopped by recorded gates",
+    "limitation": "No efficacy, potency, developability or assay-draft claim for unselected designs."
+  },
+  {
+    "topic": "Reproduction",
+    "claim": "Offline exported-data rebuild and hashes verified in tested environment",
+    "evidence": "results/reproducibility-qc.json",
+    "permitted_interpretation": "Reproduction of saved calculations",
+    "limitation": "Does not reproduce neural inference or guarantee cross-platform byte identity."
+  }
+]

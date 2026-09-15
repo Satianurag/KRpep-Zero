@@ -1,0 +1,20 @@
+[
+  {
+    "file": "biohub-esm-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/Biohub/esm/ba4d7124864eed323a93bf3cfefcd958f573b75a/LICENSE.md",
+    "retrieved_date": "2026-09-14",
+    "sha256": "b63df9ca1dd96b3b21eec226b51b236d0bd152ac20eafc43aad46bf832b48d8a"
+  },
+  {
+    "file": "biohub-esm-THIRD_PARTY_NOTICE.md",
+    "url": "https://raw.githubusercontent.com/Biohub/esm/ba4d7124864eed323a93bf3cfefcd958f573b75a/THIRD_PARTY_NOTICE.md",
+    "retrieved_date": "2026-09-14",
+    "sha256": "5bff8515ba4e0f53abdc43714c180b79c5b606160497d98de741a369cb9b6a23"
+  },
+  {
+    "file": "esmc-model-card.md",
+    "url": "https://huggingface.co/biohub/esmc-300m-2024-12/raw/7f10b20ae75017b2dbc884070e03434515709a8d/README.md",
+    "retrieved_date": "2026-09-14",
+    "sha256": "85ed403af006f4830424e0de1c2810f39cb0d1aa825eaa93380ae3724288dfe6"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "scope": "Independent atom inventory and explicit covalent links versus deposited 5XCO-derived reference; coordinates not used as input conformer",
+  "heavy_atom_identities_and_elements_matched": 179,
+  "explicit_links_matched": [
+    [
+      [
+        5,
+        "SG"
+      ],
+      [
+        15,
+        "SG"
+      ]
+    ],
+    [
+      [
+        0,
+        "C"
+      ],
+      [
+        1,
+        "N"
+      ]
+    ],
+    [
+      [
+        19,
+        "C"
+      ],
+      [
+        20,
+        "N"
+      ]
+    ]
+  ],
+  "passed": true,
+  "reference_sha256": "237ac49ea211a7a000e5c05074b7d7a227ce603c1f63c0d8d5aba53d9e956332"
+}

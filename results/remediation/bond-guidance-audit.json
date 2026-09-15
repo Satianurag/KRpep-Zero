@@ -1,0 +1,200 @@
+{
+  "scope": "CPU-only diagnostic; no prediction or model changes",
+  "code_revision": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+  "source_sha256": {
+    "src/boltz/model/potentials/potentials.py": "1e4a79f1454e5a71ca5a3eb82fca5451a7dc2bed8a45df9f0a814f62a6219f38",
+    "src/boltz/data/feature/featurizerv2.py": "af1f9e6ec0c3d7289eb1f7503c3c1c3ee0d9f03436778dd4a7d412b8f7bd9f94",
+    "src/boltz/data/parse/schema.py": "c0dae4c89c4c4a22175a433b5a0c68860329d2a292c76224328bdde19b73b743"
+  },
+  "controls": [
+    {
+      "control": "KRpep-2d",
+      "connections": [
+        {
+          "endpoints": [
+            [
+              "D",
+              1,
+              "C"
+            ],
+            [
+              "B",
+              1,
+              "N"
+            ]
+          ],
+          "global_atom_indices": [
+            1354,
+            1557
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": true,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        },
+        {
+          "endpoints": [
+            [
+              "B",
+              5,
+              "SG"
+            ],
+            [
+              "B",
+              15,
+              "SG"
+            ]
+          ],
+          "global_atom_indices": [
+            1403,
+            1484
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": false,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        },
+        {
+          "endpoints": [
+            [
+              "B",
+              19,
+              "C"
+            ],
+            [
+              "E",
+              1,
+              "N"
+            ]
+          ],
+          "global_atom_indices": [
+            1520,
+            1560
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": true,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        }
+      ],
+      "guidance_upper_bound_A": [
+        2.0,
+        2.0
+      ],
+      "guidance_lower_bound": null,
+      "official_penalty_by_probe_distance_A": {
+        "0.7": [
+          0.0,
+          0.0
+        ],
+        "1.32": [
+          0.0,
+          0.0
+        ],
+        "2.0": [
+          0.0,
+          0.0
+        ],
+        "2.5": [
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "control": "SCRAMBLE-20260914",
+      "connections": [
+        {
+          "endpoints": [
+            [
+              "D",
+              1,
+              "C"
+            ],
+            [
+              "B",
+              1,
+              "N"
+            ]
+          ],
+          "global_atom_indices": [
+            1354,
+            1557
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": true,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        },
+        {
+          "endpoints": [
+            [
+              "B",
+              5,
+              "SG"
+            ],
+            [
+              "B",
+              15,
+              "SG"
+            ]
+          ],
+          "global_atom_indices": [
+            1403,
+            1484
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": false,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        },
+        {
+          "endpoints": [
+            [
+              "B",
+              19,
+              "C"
+            ],
+            [
+              "E",
+              1,
+              "N"
+            ]
+          ],
+          "global_atom_indices": [
+            1520,
+            1560
+          ],
+          "in_structure_bonds": true,
+          "in_connections_potential": true,
+          "has_rdkit_distance_bounds": false,
+          "rdkit_lower_bound_A": null
+        }
+      ],
+      "guidance_upper_bound_A": [
+        2.0,
+        2.0
+      ],
+      "guidance_lower_bound": null,
+      "official_penalty_by_probe_distance_A": {
+        "0.7": [
+          0.0,
+          0.0
+        ],
+        "1.32": [
+          0.0,
+          0.0
+        ],
+        "2.0": [
+          0.0,
+          0.0
+        ],
+        "2.5": [
+          0.5,
+          0.5
+        ]
+      }
+    }
+  ],
+  "interpretation": "External cap links have an upper-only connection potential, no RDKit cross-residue lower bounds, and connected-chain VDW exclusion. The intrachain disulfide is represented in model bond features but omitted by this connections-potential builder. These coverage gaps permit distorted geometry; this does not establish the cause of confidence overlap or prove a remedy will pass the gate."
+}

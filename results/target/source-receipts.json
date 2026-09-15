@@ -1,0 +1,37 @@
+[
+  {
+    "bytes": 400724,
+    "file": "5xco.cif",
+    "retrieved_at_utc": "2026-09-13T19:15:02.388227+00:00",
+    "sha256": "d27f7569deb1b62af9f2b448a9354e650a0fe30bab35a1bb0f4430b7ec534e56",
+    "url": "https://files.rcsb.org/download/5XCO.cif"
+  },
+  {
+    "bytes": 15345,
+    "file": "5xco-entry.json",
+    "retrieved_at_utc": "2026-09-13T19:15:03.203514+00:00",
+    "sha256": "58a093419da3716ece416a5da05c462dcbe0dc943531723ddafbf332dc699a89",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/5XCO"
+  },
+  {
+    "bytes": 266929,
+    "file": "P01116.json",
+    "retrieved_at_utc": "2026-09-13T19:15:04.001468+00:00",
+    "sha256": "54e2d937a79f84a4b9e6039fe4de4632290b1456cfc069b71b98dcd1880140fa",
+    "url": "https://rest.uniprot.org/uniprotkb/P01116.json"
+  },
+  {
+    "bytes": 87009,
+    "file": "P01111.json",
+    "retrieved_at_utc": "2026-09-13T19:15:04.780399+00:00",
+    "sha256": "c574ed6deef1c7dfa0098f9745a6a792586d19e2db955284e4ee246db620bc50",
+    "url": "https://rest.uniprot.org/uniprotkb/P01111.json"
+  },
+  {
+    "bytes": 210524,
+    "file": "P01112.json",
+    "retrieved_at_utc": "2026-09-13T19:15:05.870762+00:00",
+    "sha256": "84130245d668825468021c4550a21acbc7d41fefe306600f5a7f2376e0d869fb",
+    "url": "https://rest.uniprot.org/uniprotkb/P01112.json"
+  }
+]

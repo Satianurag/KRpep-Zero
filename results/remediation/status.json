@@ -1,0 +1,20 @@
+{
+  "state": "FAILED",
+  "title": "Chemistry repaired; control separation failed",
+  "observed_at_utc": "2026-09-14T10:14:43.210639+00:00",
+  "input_graph_qc": "passed for both controls",
+  "bond_checks_per_control": 183,
+  "stereocenters_per_control": 20,
+  "planned_predictions": 6,
+  "prior_gate": "Revision 1 failed and remains failed",
+  "new_results": "six complete; chemistry passed; confidence separation failed",
+  "protocol": "PROTOCOL_REMEDIATION_V2.md",
+  "geometry_selftests": "mirror and compressed-bond tests passed",
+  "completed_predictions": 6,
+  "gate_summary": "results/control-remediation-v2-002/analysis/gate-summary.json",
+  "mean_gap": 0.033214181661605835,
+  "required_gap": 0.15,
+  "chemistry_passed": true,
+  "separation_passed": false,
+  "gpu_state": "stopped"
+}

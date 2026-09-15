@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-09-15T05:09:30Z",
+  "checked_at_IST": "2026-09-15 10:39:30 IST",
+  "scope": "Isolated public export; recorded-data rebuild without inference, including the saved Protenix base diagnostic outputs",
+  "reproduction_operation": "public-export-reproduction-20260915-protenix-included",
+  "exit_code": 0,
+  "all_export_hashes_identical_after_rebuild": true,
+  "files_checked": 331,
+  "release_manifest_present": true,
+  "version1_gate": "FAILED",
+  "version2_gate": "FAILED; chemistry PASSED",
+  "protenix_v2_diagnostic": "FAILED before prediction; official protenix-v2.pt checkpoint returned HTTP 403",
+  "protenix_base_default_diagnostic": "COMPLETED; six control predictions; positive-control native contacts 0/41, 0/41, 0/41",
+  "cumulative_control_predictions": 18,
+  "model_inference_rerun": false,
+  "python_packages": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "gemmi": "0.7.5",
+    "biopython": "1.88",
+    "rdkit": "2026.3.6",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.3.0",
+    "requests": "2.34.2"
+  },
+  "limitation": "Same tested Python 3.12 analysis environment; not a cross-platform guarantee. This reproduces saved-data analyses and does not rerun neural inference or establish biological binding. The release-manifest hash is not embedded here because this file is included in that manifest."
+}

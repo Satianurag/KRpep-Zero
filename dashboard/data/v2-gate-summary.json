@@ -1,0 +1,25 @@
+{
+  "protocol": "revision 2 full-molecule representation",
+  "positive_mean_pair_iptm": 0.6233007709185282,
+  "scramble_mean_pair_iptm": 0.5900865892569224,
+  "positive_minus_scramble": 0.033214181661605835,
+  "paired_seed_differences": {
+    "17": -0.08695977926254272,
+    "42": 0.16356578469276428,
+    "101": 0.023036539554595947
+  },
+  "required_mean_gap": 0.15,
+  "positive_higher_seed_count": 2,
+  "required_seed_wins": 2,
+  "separation_passed": false,
+  "chemistry_passed": true,
+  "passed": false,
+  "decision": "STOP_REMEDIATION_GATE_FAILED",
+  "completed_v2_validation_units": 6,
+  "completed_cumulative_validation_units": 12,
+  "limitations": [
+    "Same original proposed scramble; not experimentally established as a nonbinder.",
+    "Do not pool or directly compare confidence with revision 1: tokenization changed.",
+    "Confidence and pose are not binding-affinity or biological-activity measurements."
+  ]
+}

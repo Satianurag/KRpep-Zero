@@ -1,0 +1,26 @@
+{
+  "seed": 20260914,
+  "scramble_algorithm": "Python random.Random(seed).shuffle once on positions6-14; retain Arg tails and Cys5/Cys15",
+  "chemistry": {
+    "N_terminus": "acetylated",
+    "C_terminus": "amidated",
+    "disulfide": [
+      5,
+      15
+    ],
+    "backbone_cyclic": false
+  },
+  "controls": [
+    {
+      "id": "KRpep-2d",
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "role": "published positive control"
+    },
+    {
+      "id": "SCRAMBLE-20260914",
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "role": "proposed negative control; not an experimentally established nonbinder"
+    }
+  ],
+  "model_input_status": "VALIDATED against pinned Boltz2 parser/CCD; six predictions completed; control confidence separation FAILED; terminal-cap output geometry distorted"
+}

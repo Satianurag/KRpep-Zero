@@ -1,0 +1,47 @@
+{
+  "scope": "Exploratory Protenix cross-model control diagnostic; no candidate gate change.",
+  "date_IST": "2026-09-14",
+  "attempts": [
+    {
+      "run_id": "protenix-diagnostic-001",
+      "label": "Protenix-v2",
+      "exists": true,
+      "model": "protenix-v2",
+      "gpu": "L4",
+      "elapsed_seconds": 389.7072274684906,
+      "exit_code": 1,
+      "error": "RuntimeError: Protenix exited 1",
+      "source_commit": "4c355be4553512f72453ecbfb65e69f4c35d1413",
+      "protocol_sha256": "1cf9e81805e2897578ab59294323307bd4b69f52d9277b442995aaf4a5d088c2",
+      "prediction_cif_count": 0,
+      "status": "failed_before_prediction"
+    },
+    {
+      "run_id": "protenix-base-default-diagnostic-001",
+      "label": "Protenix base default v1.0.0",
+      "exists": true,
+      "model": "protenix_base_default_v1.0.0",
+      "gpu": "L4",
+      "elapsed_seconds": 1280.6431293487549,
+      "exit_code": 0,
+      "error": null,
+      "source_commit": "4c355be4553512f72453ecbfb65e69f4c35d1413",
+      "protocol_sha256": "7f5b6f7d4c5221655be080a9eea8e6d406ce55d911093092bd9109d7f7d961a5",
+      "prediction_cif_count": 6,
+      "status": "completed",
+      "analysis_rows": 6,
+      "positive_core_rmsd_A": [
+        29.06064448755369,
+        30.931639185151354,
+        30.5840932757763
+      ],
+      "positive_native_contacts_recovered": [
+        0,
+        0,
+        0
+      ],
+      "all_bonds_in_bounds": false,
+      "all_stereocenters_correct": false
+    }
+  ]
+}

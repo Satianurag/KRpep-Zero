@@ -1,0 +1,29 @@
+{
+  "scope": "six-run control calibration, no novel candidates",
+  "protocol": "PROTOCOL.md revision 1; thresholds frozen before inference",
+  "positive_mean_pair_iptm": 0.9183630645275116,
+  "scramble_mean_pair_iptm": 0.9222310980161031,
+  "positive_minus_scramble": -0.003868033488591512,
+  "paired_seed_differences": {
+    "17": 0.003059178590774536,
+    "42": 0.00717085599899292,
+    "101": -0.021834135055541992
+  },
+  "positive_higher_seed_count": 2,
+  "required_mean_gap": 0.15,
+  "required_seed_wins": 2,
+  "passed": false,
+  "decision": "STOP_CONTROL_GATE_FAILED",
+  "completed_validation_units": 6,
+  "seeds": [
+    17,
+    42,
+    101
+  ],
+  "limitations": [
+    "The scramble is not an experimentally established nonbinder.",
+    "ipTM is model confidence, not an affinity or activity measurement.",
+    "Possible training-set overlap with the reference limits interpretation of positive pose recovery.",
+    "No new scramble, cherry-picked seed or relaxed gate is permitted."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "Isolated offline public export after Protenix diagnostic; includes pose audit, curated literature table, Protenix saved-output audit, PDFs, dashboard and editable deck",
+  "date": "2026-09-15",
+  "script": "analysis/reproduce.py",
+  "file_count": 331,
+  "all_manifest_hashes_identical_after_reproduction": true,
+  "model_inference_rerun": false,
+  "python_environment": "Python 3.12 project .venv-esm",
+  "release_manifest_present": true,
+  "cumulative_control_predictions": 18,
+  "protenix_base_default_positive_contacts": [0, 0, 0],
+  "protenix_base_default_positive_core_rmsd_A": [29.06064448755369, 30.931639185151354, 30.5840932757763]
+}

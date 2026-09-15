@@ -1,0 +1,49 @@
+"""Project overview UI over the unchanged recorded scientific results."""
+import html as h
+
+def add_demo(html, manifest):
+    html = html.replace('<nav>', '<nav aria-label="Project sections">', 1)
+    oldnav = html[html.index('<nav'):html.index('</nav>') + 6]
+    html = html.replace(oldnav, '<nav aria-label="Project sections"><a href="#summary">Overview</a><a href="#structure">Compare structures</a><a href="#runs">All 18 runs</a><a href="#remediation">Boltz results</a><a href="#protenix">Protenix</a><a href="#evidence">Evidence</a><a href="#package">Study package</a></nav>')
+    html = html.replace('CONTROL REPAIR FAILED', 'CANDIDATE SELECTION STOPPED')
+    html = html.replace('The method has been tested. Every result is visible.', 'Chemistry repaired. Selection still fails.')
+    html = html.replace('Twelve control predictions, two declared protocols, and a documented decision before candidate selection.', 'Explore 12 Boltz control predictions and 6 Protenix diagnostics against the experimental KRpep-2d structure. All seeds retained; no novel binder selected.')
+    html = html.replace('Evidence snapshot<br>14 September 2026', 'Project overview<br>15 September 2026')
+    html = html.replace('The WT counter-screen uses matched KRAS4B so these differences cannot confound G12D.', 'The planned WT counter-screen would use matched KRAS4B. It was not run after the control gates failed.')
+    html = html.replace('Method audit ↗', 'Historical setup audit ↗')
+    html = html.replace('<div class="card" style="margin-top:18px"><div class="card-top"><h3>Protenix diagnostic addendum', '<div class="card" id="protenix" style="margin-top:18px"><div class="card-top"><h3>Protenix diagnostic addendum')
+    html = html.replace('<h3>Protenix diagnostic addendum</h3><span class="tag">NO GATE CHANGE</span></div><table>', '<h3>Protenix diagnostic addendum</h3><span class="tag">NO GATE CHANGE</span></div><div class="table-scroll" tabindex="0" role="region" aria-label="Protenix diagnostic results"><table>')
+    html = html.replace('</tbody></table><img class="figure" src="assets/protenix-base-diagnostic.png"', '</tbody></table></div><img class="figure" src="assets/protenix-base-diagnostic.png"')
+    html = html.replace('RuntimeError: Protenix exited 1', 'Checkpoint unavailable (HTTP 403)')
+    html = html.replace('<b>Controls</b><small>6 runs · gate failed</small>', '<b>Controls</b><small>12 Boltz + 6 Protenix</small>')
+    summary = '''<section class="demo-summary" id="summary" aria-label="Study overview">
+<div class="summary-main"><span class="eyebrow">Research question</span><h2>Can this workflow support peptide selection?</h2><p>The complete molecular graph repaired the measured bond and stereochemistry checks. Confidence separation and experimental-pose recovery remained inadequate to advance candidates.</p><p class="small">Two peptide identities, sampled across three seeds and three protocols. These are model outputs, not biological replicates. The proposed scramble is not an experimentally established nonbinder.</p></div>
+<div class="summary-stat"><strong>18</strong><span>Control predictions<br>12 Boltz + 6 Protenix</span></div><div class="summary-stat"><strong>0</strong><span>Accepted novel designs<br>2 rejected generator pilots</span></div>
+<div class="summary-action"><a class="primary-link" href="#structure">Inspect the structures ↓</a><a href="#package">Open study package ↗</a><span>Main screen, selectivity and developability were not run.</span></div></section>'''
+    start = html.index('<div class="workspace" id="structure">')
+    end = html.index('<section id="evidence">', start)
+    viewer = '''<section id="structure" class="comparison" aria-label="All-seed structure comparison">
+<div class="section-head"><div><div class="eyebrow">Experimental reference + recorded predictions</div><h2>Inspect the pose, not just the score.</h2></div><a href="#runs" class="small">Browse all 18 runs ↓</a></div>
+<div class="workspace"><div class="card viewer-card">
+<div class="compare-selectors"><label>Model / representation<select id="protocol-select"><option value="reference">5XCO · experimental reference</option><option value="v1">Boltz · revision 1</option><option value="v2">Boltz · revision 2</option><option value="protenix">Protenix · base diagnostic</option></select></label><label>Control<select id="control-select" disabled><option value="KRpep-2d">KRpep-2d · positive</option><option value="SCRAMBLE-20260914">Proposed scramble</option></select></label><label>Seed<select id="seed-select" disabled><option value="17">17</option><option value="42">42</option><option value="101">101</option></select></label></div>
+<div class="card-top"><div><span class="kicker" id="view-kicker">EXPERIMENTAL REFERENCE</span><h3 id="view-title">5XCO · KRAS G12D + KRpep-2d</h3></div><div class="toolbar"><button id="whole" type="button">Fit all</button><button id="pocket" type="button">Reference pocket</button><button id="prediction-focus" type="button" disabled>Prediction focus</button></div></div>
+<div class="viewer-shell"><div id="molecule" aria-label="Interactive structure comparison; drag to rotate and scroll to zoom"></div><div class="viewer-note" id="viewer-note">Drag to rotate · scroll to zoom<br>Experimental reference · no new design</div></div>
+<div class="layer-controls"><button id="surface" type="button" aria-pressed="true">Target surface</button><button id="reference-toggle" type="button" aria-pressed="true">Reference peptide</button><button id="target-toggle" type="button" aria-pressed="false" disabled>Predicted target</button><button id="spin" type="button" aria-pressed="false">Rotate</button></div>
+<div class="legend"><span><i class="dot" style="background:#a0acb8"></i>Reference KRAS</span><span><i class="dot" style="background:var(--pink)"></i>Reference KRpep-2d</span><span><i class="dot" style="background:var(--teal)"></i>Predicted peptide</span><span><i class="dot" style="background:#729bdf"></i>Predicted KRAS (optional)</span><span><i class="dot" style="background:var(--gold)"></i>GDP</span><span><i class="dot" style="background:var(--red)"></i>Asp12</span></div>
+<div class="caption" id="alignment-note">KRAS4B G12D residues 1–169, GDP state. Experimental structure at 1.25 Å resolution.</div></div>
+<aside class="card card-pad selection-panel"><div class="eyebrow">Selected structure</div><h3 id="selected-name">Experimental KRpep-2d</h3><div id="load-status" role="status" aria-live="polite">Loading the reference…</div>
+<div class="metric"><strong id="pose-value">—</strong><span>Core Cα RMSD · Å<br>positive control, residues 5–15</span></div><div class="metric"><strong id="contacts-value">41</strong><span>Native contacts at 5 Å<br>recovered / 41 for predictions</span></div><div class="metric"><strong id="confidence-value">—</strong><span>Within-protocol pair ipTM<br>Boltz only · not affinity</span></div>
+<p class="small" id="chemistry-status">19 residues · Cys5–Cys15 disulfide · capped termini.</p><div class="sequence" id="selected-sequence">Ac-RRRR-CPLYISYDPVC-RRRR-NH₂</div>
+<div class="callout" id="selection-note">Choose a model to compare a saved prediction with 5XCO. Seeds are listed in fixed numeric order, without confidence ranking.</div><a id="download-cif" class="primary-link" href="data/structures/reference.cif" download>Download original CIF ↗</a><details class="provenance-details"><summary>Alignment &amp; provenance</summary><p class="small" id="provenance-text">Deposited experimental reference; no model inference.</p><code id="source-hash"></code><a href="data/predictions.json" class="small">All-run transform manifest ↗</a></details></aside></div></section>'''
+    rows = []
+    for e in manifest['entries']:
+        rmsd = '—' if e['core_rmsd_A'] is None else f"{e['core_rmsd_A']:.2f}"
+        contacts = '—' if e['native_contacts_recovered'] is None else f"{e['native_contacts_recovered']}/41"
+        confidence = '—' if e['pair_iptm'] is None else f"{e['pair_iptm']:.4f}"
+        name = f"{e['protocol_label']} · {e['control_label']} · seed {e['seed']}"
+        rows.append(f'<tr data-run="{e["id"]}"><td>{h.escape(e["protocol_label"])}</td><td>{h.escape(e["control_label"])}</td><td>{e["seed"]}</td><td>{confidence}</td><td>{rmsd}</td><td>{contacts}</td><td><button class="run-button" data-run-id="{e["id"]}" aria-label="View {h.escape(name)}">View pose ↗</button></td></tr>')
+    library = '<section id="runs"><div class="section-head"><div><div class="eyebrow">Complete run inventory · fixed order</div><h2>Every seed. Both controls.</h2></div><a class="small" href="data/predictions.json" download>Download manifest ↗</a></div><p>Compare confidence within one Boltz revision only. Protenix is an independent diagnostic. A dash means the metric is not applicable; no native-pose correspondence is assigned to the scramble.</p><div class="card"><div class="table-scroll" tabindex="0" role="region" aria-label="All 18 saved control predictions"><table><thead><tr><th>Model / representation</th><th>Control</th><th>Seed</th><th>Pair ipTM</th><th>Core RMSD Å</th><th>Contacts</th><th>Inspect</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div><div class="caption">Core RMSD: 11 positive-peptide Cα atoms after fitting 169 target Cα atoms, without peptide refitting. Contacts: native residue-pair recovery at a 5 Å heavy-atom cutoff. Neither metric estimates affinity.</div></div></section>'
+    html = html[:start] + summary + viewer + library + html[end:]
+    html = html.replace('</head>', '<link rel="stylesheet" href="assets/demo.css"></head>')
+    html = html.replace('<section id="package"><div', '<section id="package"><p class="callout">Recorded study: chemistry and control validation with a negative selection result. The original novel-binder objective remains unmet.</p><div')
+    return html

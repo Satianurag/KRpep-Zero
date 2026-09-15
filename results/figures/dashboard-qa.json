@@ -1,0 +1,10 @@
+{
+  "ready": true,
+  "pageErrors": [],
+  "mobileHorizontalOverflow": false,
+  "renderer": "3Dmol.js2.5.5",
+  "controlRows": 6,
+  "remediationRows": 6,
+  "brokenLinks": [],
+  "scope": "Local dashboard QA only; no new standalone molecular render"
+}

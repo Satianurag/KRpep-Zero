@@ -1,0 +1,68 @@
+[
+  {
+    "name": "KRpep-2d",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+          "count": 1,
+          "id": [
+            "A"
+          ],
+          "unpairedMsaPath": "target.a3m"
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(=O)O)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC1=O",
+          "count": 1,
+          "id": [
+            "B"
+          ]
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_GDP",
+          "count": 1,
+          "id": [
+            "C"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "SCRAMBLE-20260914",
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "MTEYKLVVVGADGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHHYREQIKRVKDSEDVPMVLVGNKCDLPSRTVDTKQAQDLARSYGIPFIETSAKTRQGVDDAFYTLVREIRKHKEK",
+          "count": 1,
+          "id": [
+            "A"
+          ],
+          "unpairedMsaPath": "target.a3m"
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCCNC(N)=[NH2+])NC(C)=O)CSSC[C@@H](C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)N[C@@H](CCCNC(N)=[NH2+])C(N)=O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@@H]2CCCN2C(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@H](CO)NC(=O)[C@@H]2CCCN2C(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC1=O",
+          "count": 1,
+          "id": [
+            "B"
+          ]
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_GDP",
+          "count": 1,
+          "id": [
+            "C"
+          ]
+        }
+      }
+    ]
+  }
+]

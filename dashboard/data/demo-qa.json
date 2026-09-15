@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-15",
+  "scope": "Project interface over saved data; no new inference",
+  "browser": "Codex in-app browser",
+  "all_18_prediction_selections_loaded": true,
+  "positive_display_metrics_match_saved_audit": true,
+  "scramble_pose_metrics_not_applicable": true,
+  "protenix_confidence_not_pooled": true,
+  "viewer_layer_toggles_passed": true,
+  "figure_enlarge_and_close_passed": true,
+  "mobile_viewport_px": [
+    390,
+    844
+  ],
+  "mobile_page_width_px": 390,
+  "mobile_clipped_tables": [],
+  "mobile_protenix_table_keyboard_scrolls": true,
+  "browser_warning_errors_observed": [],
+  "alignment": "169 matched target C-alpha atoms; proper rigid transform; no peptide refit",
+  "source_predictions_modified": false,
+  "limitation": "UI verification and saved-data reproduction do not constitute biological validation",
+  "local_links_and_assets_checked": 69,
+  "local_link_failures": [],
+  "isolated_recorded_data_rebuild_exit_code": 0,
+  "export_hash_verification_after_rebuild": "passed",
+  "verified_export_file_count": 373
+}

@@ -1,0 +1,7 @@
+control_id,seed,bonds_in_expanded_bounds,stereocenters_correct,core_CA_RMSD_A,all19_CA_RMSD_A,native_contacts_recovered,structure
+KRpep-2d,17,182,17,29.06064448755369,29.61584284091561,0,results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_17/predictions/KRpep-2d_sample_0.cif
+KRpep-2d,42,182,19,30.931639185151354,32.16891504102528,0,results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_42/predictions/KRpep-2d_sample_0.cif
+KRpep-2d,101,181,17,30.5840932757763,29.539295075190655,0,results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_101/predictions/KRpep-2d_sample_0.cif
+SCRAMBLE-20260914,17,181,17,,,,results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_17/predictions/SCRAMBLE-20260914_sample_0.cif
+SCRAMBLE-20260914,42,182,16,,,,results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_42/predictions/SCRAMBLE-20260914_sample_0.cif
+SCRAMBLE-20260914,101,182,19,,,,results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_101/predictions/SCRAMBLE-20260914_sample_0.cif

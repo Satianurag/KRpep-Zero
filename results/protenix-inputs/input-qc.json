@@ -1,0 +1,16 @@
+[
+  {
+    "id": "KRpep-2d",
+    "heavy_atoms": 179,
+    "bonds": 183,
+    "stereocenters": 20,
+    "smiles_sha256": "8f92ce25424268ec8614bf2db730002b06fe38ead5e059b4f85018fb521d87c6"
+  },
+  {
+    "id": "SCRAMBLE-20260914",
+    "heavy_atoms": 179,
+    "bonds": 183,
+    "stereocenters": 20,
+    "smiles_sha256": "383d58cca7db6df36c381c50216581a69f65506e75b21ea51f06000ba2202a5a"
+  }
+]

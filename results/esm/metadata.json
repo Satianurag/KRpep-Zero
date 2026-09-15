@@ -1,0 +1,65 @@
+{
+  "canonical_alphabet": "ACDEFGHIKLMNPQRSTVWY",
+  "checkpoint_relative_path": "data/weights/esmc_300m_2024_12_v0.pth",
+  "credentials_used": false,
+  "device": "NVIDIA L4",
+  "dtype": "float32",
+  "elapsed_seconds": 32.99046468734741,
+  "esm_git_revision": "ba4d7124864eed323a93bf3cfefcd958f573b75a",
+  "g12d_name": "KRAS_G12D_1-169|PDB=5XCO|auth_chain=A|GDP_state",
+  "hf_model_gated": false,
+  "hf_model_private": false,
+  "hf_model_sha": "7f10b20ae75017b2dbc884070e03434515709a8d",
+  "hotspot_qc_positions": [
+    12,
+    13,
+    61
+  ],
+  "input_length": 169,
+  "mask_context_position_12_max_abs_logit_delta": 0.0,
+  "model_name": "esmc_300m",
+  "model_repo": "biohub/esmc-300m-2024-12",
+  "requested_weights_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+  "resolved_snapshot_revision": "7f10b20ae75017b2dbc884070e03434515709a8d",
+  "seed": 17,
+  "technical_qc": {
+    "12": {
+      "g12d_finite": true,
+      "g12d_shape": [
+        64
+      ],
+      "wt_finite": true,
+      "wt_shape": [
+        64
+      ]
+    },
+    "13": {
+      "g12d_finite": true,
+      "g12d_shape": [
+        64
+      ],
+      "wt_finite": true,
+      "wt_shape": [
+        64
+      ]
+    },
+    "61": {
+      "g12d_finite": true,
+      "g12d_shape": [
+        64
+      ],
+      "wt_finite": true,
+      "wt_shape": [
+        64
+      ]
+    }
+  },
+  "transformers_git_revision": "ef32577f55da19a4989cd7b22e004dc43a4998cb",
+  "weight_sha256": {
+    ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "README.md": "85ed403af006f4830424e0de1c2810f39cb0d1aa825eaa93380ae3724288dfe6",
+    "config.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "data/weights/esmc_300m_2024_12_v0.pth": "323dff9fbf3fef297a74f4f18b6528e6f2e599b0bcf72b6927516804015becea"
+  },
+  "wt_name": "KRAS4B_WT_1-169|UniProt=P01116-2"
+}

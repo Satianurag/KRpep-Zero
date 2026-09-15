@@ -1,0 +1,892 @@
+{
+  "format": 1,
+  "scope": "18 saved control predictions; no novel designs or inference",
+  "alignment": "Proper rigid least-squares fit on matched target CA residues 1\u2013169. Same transform applied to the entire prediction. No peptide refitting.",
+  "connectivity": "Peptide bonds use the declared full input graph; coordinates are unchanged except rigid alignment. This is not evidence that bond lengths or stereochemistry pass.",
+  "rmsd": "Positive-control CA residues 5\u201315 after target-only fit (11 atoms); not DockQ or affinity. No residue-equivalence metric is assigned to the scrambled molecule.",
+  "reference_sha256": "237ac49ea211a7a000e5c05074b7d7a227ce603c1f63c0d8d5aba53d9e956332",
+  "entries": [
+    {
+      "id": "v1-positive-17",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 17,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.9094360768795013,
+      "core_rmsd_A": 0.4264164846411889,
+      "native_contacts_recovered": 35,
+      "target_fit_rmsd_A": 1.110372653130839,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-positive-17.json",
+      "raw_cif": "data/structures/v1-positive-17.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/KRpep-2d-seed-17/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "490dc91a18dfe036bce397c234533c1e25cfdeacca72cb526181725262bbb42b",
+      "payload_sha256": "901bd105ae2a9960447afd94774b2e7bf446b309f9ad27c7f5507f7133361e69",
+      "transform": {
+        "moving_centroid": [
+          0.6602757988165674,
+          2.3906011242603555,
+          -1.9601659171597636
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.9152510203530563,
+            0.37953697850878776,
+            -0.13515639713720357
+          ],
+          [
+            -0.3971491099658047,
+            0.9063410673491443,
+            -0.1442860148794152
+          ],
+          [
+            0.06773591511199067,
+            0.1857351651702866,
+            0.9802623598930582
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v1-positive-42",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 42,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.9462316930294037,
+      "core_rmsd_A": 21.469775963381036,
+      "native_contacts_recovered": 0,
+      "target_fit_rmsd_A": 1.6179021572444146,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-positive-42.json",
+      "raw_cif": "data/structures/v1-positive-42.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/KRpep-2d-seed-42/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "f8cbb8d24708b9bfd8378dd1b2ece29565f3dd62483b1a0ace4a5bd80b65f337",
+      "payload_sha256": "6a95ea43926728470ab9fcb134ca6317e34fadc231b827a354c99984f3547d17",
+      "transform": {
+        "moving_centroid": [
+          -0.1527217159763315,
+          -2.9646198816568052,
+          -1.2424847337278109
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.18970995670071975,
+            -0.9777585394768935,
+            -0.089433611179592
+          ],
+          [
+            0.2894367376011967,
+            -0.14273212106553435,
+            0.9464955977409023
+          ],
+          [
+            -0.9382092022866687,
+            0.15367426621313343,
+            0.31007694633504734
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v1-positive-101",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 101,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.8994214236736298,
+      "core_rmsd_A": 0.5154947671409896,
+      "native_contacts_recovered": 37,
+      "target_fit_rmsd_A": 1.046495851859468,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-positive-101.json",
+      "raw_cif": "data/structures/v1-positive-101.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/KRpep-2d-seed-101/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "5deb17bf5310ab492fe9d0d3bbed5ed15b1678cc3de5b7f2e0404b6d4979f016",
+      "payload_sha256": "23abc79bfd092128623d84e73e6e23450e225b96a62af97fd31b7afc2fd3b5e0",
+      "transform": {
+        "moving_centroid": [
+          -1.7418977514792902,
+          -1.6401051479289928,
+          2.1177857988165676
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.8858166010502018,
+            0.37056614159626733,
+            -0.2793021374897116
+          ],
+          [
+            -0.19966435102162974,
+            0.23895723392781223,
+            0.9502807939155036
+          ],
+          [
+            0.4188831534389729,
+            0.8975411829303562,
+            -0.13768343658188406
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v1-scramble-17",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 17,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.9063768982887268,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.6768971536077206,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-scramble-17.json",
+      "raw_cif": "data/structures/v1-scramble-17.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/SCRAMBLE-20260914-seed-17/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "bce375b7a89c03514389998be193b4c8ad9d12c3bf30506e81f8b18870a18da5",
+      "payload_sha256": "2cd5e7a57cc49c09e1b43ea53d2d510a46b383ca50db31b400f006d6d4503d87",
+      "transform": {
+        "moving_centroid": [
+          -4.0118511834319515,
+          2.278292189349111,
+          -1.4051301183431952
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.3907670238188407,
+            -0.07287383559892166,
+            0.9176004234855534
+          ],
+          [
+            -0.7789521782583122,
+            -0.5049550721230354,
+            -0.37182506521730163
+          ],
+          [
+            0.49044330669547964,
+            -0.8600638227610329,
+            0.14055455771792835
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v1-scramble-42",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 42,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.9390608370304108,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.6811858558123725,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-scramble-42.json",
+      "raw_cif": "data/structures/v1-scramble-42.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/SCRAMBLE-20260914-seed-42/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "c75f65ecc8153e31d80e69e59a065214dd11fb7893766ef4b24162583a827a31",
+      "payload_sha256": "8ac1779d2ca4de5fcb8bc50c201d6c686efdaf44c6b62aab9484c56e486b079f",
+      "transform": {
+        "moving_centroid": [
+          -0.3672653254437871,
+          1.9219901775147936,
+          -1.8955190532544368
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.4833608865720726,
+            -0.8751960624306929,
+            0.019852094047510052
+          ],
+          [
+            0.34795994572122896,
+            0.17126665132951685,
+            -0.9217329387170956
+          ],
+          [
+            0.8032970369084773,
+            0.4524373840082011,
+            0.38731677480568244
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v1-scramble-101",
+      "protocol": "v1",
+      "protocol_label": "Boltz \u00b7 revision 1",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 101,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Terminal-cap geometry issue",
+      "pair_iptm": 0.9212555587291718,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.5633966823511465,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v1-scramble-101.json",
+      "raw_cif": "data/structures/v1-scramble-101.cif",
+      "source_cif": "results/boltz-control-calibration-002/extracted/SCRAMBLE-20260914-seed-101/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "c7e5f36170ba4ee7525933b8944405a746d2c675c7b626cde0c8881cd09b97ba",
+      "payload_sha256": "0e5f6abe62a4769a7565d85cab2ba6849bdea86fbc9894de0bb0393997473f12",
+      "transform": {
+        "moving_centroid": [
+          0.66887597633136,
+          -1.316477928994083,
+          -0.9212318343195266
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.3327929702770762,
+            0.46628445950072545,
+            -0.819650926774488
+          ],
+          [
+            -0.7192977512396677,
+            0.43655680528684093,
+            0.5403969844654057
+          ],
+          [
+            0.6098029058603432,
+            0.769413386019416,
+            0.1901143272307968
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-positive-17",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 17,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.5639883279800415,
+      "core_rmsd_A": 21.395477801213506,
+      "native_contacts_recovered": 1,
+      "target_fit_rmsd_A": 1.887755055408397,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-positive-17.json",
+      "raw_cif": "data/structures/v2-positive-17.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/KRpep-2d-seed-17/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "5dd594c037e95c7767f117ea0c7433749731639e64eb0c93ae0471c79d353af2",
+      "payload_sha256": "7c1f767ebb90d70f7230d2e84c1457fc4ce63e0add601f7f948835090fd5afa8",
+      "transform": {
+        "moving_centroid": [
+          -1.5397618343195272,
+          1.5166273372781058,
+          1.4869839644970404
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.34235271614298707,
+            -0.9362104661268339,
+            -0.07940139081966123
+          ],
+          [
+            -0.8984556692799441,
+            0.3014744962304118,
+            0.31920297376645357
+          ],
+          [
+            -0.2749036705616115,
+            0.180618634800501,
+            -0.944354213563193
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-positive-42",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 42,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.6490305662155151,
+      "core_rmsd_A": 12.236537595647563,
+      "native_contacts_recovered": 4,
+      "target_fit_rmsd_A": 1.620084327403485,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-positive-42.json",
+      "raw_cif": "data/structures/v2-positive-42.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/KRpep-2d-seed-42/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "726fad8308892c6bd3aaf81c502fb10368a4ccb1675685fa9da6b972370e657a",
+      "payload_sha256": "abfda5b89653933a60a8b060e0909206ea528abea48ae7c1e9cb9517bd9e9158",
+      "transform": {
+        "moving_centroid": [
+          -0.6111971005917157,
+          1.8634515384615389,
+          -0.38501047337278277
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.9700071427022087,
+            0.2221208687469134,
+            0.09873430393643828
+          ],
+          [
+            0.17979653041004343,
+            0.9289824394177424,
+            -0.32351945058368486
+          ],
+          [
+            -0.16358285594525768,
+            -0.29606409258904626,
+            -0.941056163212492
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-positive-101",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 101,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.6568834185600281,
+      "core_rmsd_A": 11.029008993957461,
+      "native_contacts_recovered": 12,
+      "target_fit_rmsd_A": 1.5229465471894459,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-positive-101.json",
+      "raw_cif": "data/structures/v2-positive-101.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/KRpep-2d-seed-101/boltz_results_KRpep-2d/predictions/KRpep-2d/KRpep-2d_model_0.cif",
+      "source_sha256": "a91880675cf2430008fd26455c6432bcf2d85d3761c28b202cd6bbcc3af7e7f6",
+      "payload_sha256": "e878d8870363f904096378be09d879b91a0d6ffadc5966fe3778ad4452398aa8",
+      "transform": {
+        "moving_centroid": [
+          -2.7344979289940836,
+          1.5366640828402371,
+          -0.7641420710059159
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.06682153428072864,
+            -0.8705534679728136,
+            -0.48751568380604554
+          ],
+          [
+            0.5201685768811479,
+            0.4473496308876555,
+            -0.7275321019516028
+          ],
+          [
+            0.8514455556180969,
+            -0.20497552816174042,
+            0.4827271472301972
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-scramble-17",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 17,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.6509481072425842,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.6194136140011797,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-scramble-17.json",
+      "raw_cif": "data/structures/v2-scramble-17.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/SCRAMBLE-20260914-seed-17/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "0ed393e7866866bff5747e7b619b21bd534b12e5a97010cf691e0d64ee58c9f0",
+      "payload_sha256": "2620c83fcaad4202e5093641225105a4a6bb4cd79a4962b68747dcde57d759f0",
+      "transform": {
+        "moving_centroid": [
+          0.46602213017751354,
+          0.42508698224852126,
+          -0.16452946745562055
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.3900569064819693,
+            0.9131431947692532,
+            0.11842768068453655
+          ],
+          [
+            0.5811675015550464,
+            -0.3439047069144689,
+            0.7375458546411467
+          ],
+          [
+            0.7142128148122115,
+            -0.2188585351515342,
+            -0.6648315551696856
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-scramble-42",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 42,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.48546478152275085,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.2990212123847154,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-scramble-42.json",
+      "raw_cif": "data/structures/v2-scramble-42.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/SCRAMBLE-20260914-seed-42/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "9cc8ddec732a2c231280c9c6b6de24fa959ac3472797c9c17b011a04556768fa",
+      "payload_sha256": "257f1a0518e7b722caf609452209d356f7972bfc8dab7d4d5a7ca0955950b2ee",
+      "transform": {
+        "moving_centroid": [
+          -2.409132011834319,
+          -2.509233905325445,
+          -0.5743823076923067
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.1548629377856094,
+            -0.30966279932754043,
+            0.938150532277759
+          ],
+          [
+            0.07354184619434384,
+            -0.9505853172297742,
+            -0.30162750459050675
+          ],
+          [
+            0.9851949387602121,
+            0.022282400674084574,
+            0.16998360880232424
+          ]
+        ]
+      }
+    },
+    {
+      "id": "v2-scramble-101",
+      "protocol": "v2",
+      "protocol_label": "Boltz \u00b7 revision 2",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 101,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry passed",
+      "pair_iptm": 0.6338468790054321,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.7061972416875275,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/v2-scramble-101.json",
+      "raw_cif": "data/structures/v2-scramble-101.cif",
+      "source_cif": "results/control-remediation-v2-002/extracted/SCRAMBLE-20260914-seed-101/boltz_results_SCRAMBLE-20260914/predictions/SCRAMBLE-20260914/SCRAMBLE-20260914_model_0.cif",
+      "source_sha256": "aab1ef9b00e41266a07efe6f300fec1f2cd0475bcad9abc1c09016cc2598b227",
+      "payload_sha256": "d16b89c2ce48fb2f32f095389476346b627ddb875ca3f6c97b87622637bf099e",
+      "transform": {
+        "moving_centroid": [
+          -2.526077869822486,
+          1.2294536094674555,
+          -1.441503195266272
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.02425115920118689,
+            -0.19531287645812523,
+            0.9804411056086175
+          ],
+          [
+            -0.11162819199663658,
+            -0.9740673591357972,
+            -0.196804285059484
+          ],
+          [
+            0.9934540895426217,
+            -0.11421760002672714,
+            0.0018198393263991722
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-positive-17",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 17,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": 29.06064448755369,
+      "native_contacts_recovered": 0,
+      "target_fit_rmsd_A": 1.6711449241775873,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-positive-17.json",
+      "raw_cif": "data/structures/protenix-positive-17.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_17/predictions/KRpep-2d_sample_0.cif",
+      "source_sha256": "206de4e5293bb8d44e93dab01c335a2a74608856de15d03a1acf70bdc0248de9",
+      "payload_sha256": "15f449d393c201de766f132abf519d3af11cfb7e6fec1e91bdfd64ffea3d5efa",
+      "transform": {
+        "moving_centroid": [
+          1.299943088976331,
+          2.9485474670532543,
+          1.9245534931597639
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.4243820967633002,
+            0.38902064151711896,
+            -0.8176568818400511
+          ],
+          [
+            -0.36404898910043404,
+            -0.7535044599666171,
+            -0.5474480453388876
+          ],
+          [
+            -0.829076696983902,
+            0.529994310614771,
+            -0.1781512313576221
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-positive-42",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 42,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": 30.931639185151354,
+      "native_contacts_recovered": 0,
+      "target_fit_rmsd_A": 1.6817331686785755,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-positive-42.json",
+      "raw_cif": "data/structures/protenix-positive-42.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_42/predictions/KRpep-2d_sample_0.cif",
+      "source_sha256": "9873d8f4fc8d54c945163a24ce1afe303289e102aaf9faa221ce7fbfa03b7ca5",
+      "payload_sha256": "9558e962fb67671a4be3b470b249d46e66421d4c09bebef56f64ad74c6273d83",
+      "transform": {
+        "moving_centroid": [
+          0.6898015179644973,
+          -0.7331724732781064,
+          -2.9523642869704148
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.11965493887370482,
+            0.9453266032401518,
+            -0.3033814575902221
+          ],
+          [
+            -0.7973011958840714,
+            0.27358332729387314,
+            0.5380176261691098
+          ],
+          [
+            0.5916024836365721,
+            0.1775099327734958,
+            0.786445627568613
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-positive-101",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "KRpep-2d",
+      "control_label": "KRpep-2d",
+      "seed": 101,
+      "sequence": "RRRRCPLYISYDPVCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": 30.5840932757763,
+      "native_contacts_recovered": 0,
+      "target_fit_rmsd_A": 1.6965836477024245,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-positive-101.json",
+      "raw_cif": "data/structures/protenix-positive-101.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/KRpep-2d/seed_101/predictions/KRpep-2d_sample_0.cif",
+      "source_sha256": "5830a5f49e9e5e536ad72dadb2b012fd069e7ee19017c643cfb084dbc4bf32f9",
+      "payload_sha256": "e84573f5ae28a09bd98dbe1288075878c080e767cb86b116fb1b18e334d3d1e5",
+      "transform": {
+        "moving_centroid": [
+          0.9835333723668652,
+          -1.3736073734437877,
+          2.442640949408284
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.9439164845998138,
+            -0.2669359111092408,
+            0.19433705117915376
+          ],
+          [
+            -0.22296739760433598,
+            0.9494173736727038,
+            0.22111578454279504
+          ],
+          [
+            -0.24353071614537553,
+            0.16538400747564846,
+            -0.9556887152022961
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-scramble-17",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 17,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.1965586222717246,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-scramble-17.json",
+      "raw_cif": "data/structures/protenix-scramble-17.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_17/predictions/SCRAMBLE-20260914_sample_0.cif",
+      "source_sha256": "f0e6039372ccde3fb9712e0e7bf3eec76e5007d39bb6c92bbe2761163e64992d",
+      "payload_sha256": "9f0df85cdd21ea3a2d6755bafb3bd9fa521589d2b1c4650c6d07749ba75f7d73",
+      "transform": {
+        "moving_centroid": [
+          1.4811149642307697,
+          -0.796088660254436,
+          0.10240443658579937
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.024586825143106252,
+            0.5478647226303388,
+            -0.8362055571009803
+          ],
+          [
+            0.9772842416174438,
+            0.1629570000423653,
+            0.13550102296074756
+          ],
+          [
+            0.21050177936444828,
+            -0.820542053665974,
+            -0.5314129646988559
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-scramble-42",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 42,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.6175547876705636,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-scramble-42.json",
+      "raw_cif": "data/structures/protenix-scramble-42.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_42/predictions/SCRAMBLE-20260914_sample_0.cif",
+      "source_sha256": "22295f37b52dd3c765d2914c306dde43fe35dde5badae5d3af77d7033f540eb0",
+      "payload_sha256": "0b26a0de2f6fb80e51fb5deee84921bfe4b05dd89456ad2ad6f553e6e263866c",
+      "transform": {
+        "moving_centroid": [
+          2.6802035268047337,
+          -0.40223164233727754,
+          -0.32016683673609503
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            -0.7444739543135156,
+            0.4527184391650576,
+            -0.4907183980540683
+          ],
+          [
+            -0.4795998069345058,
+            -0.8739535957000946,
+            -0.07867107315436896
+          ],
+          [
+            -0.46448095390142935,
+            0.17677988404462064,
+            0.8677593652966175
+          ]
+        ]
+      }
+    },
+    {
+      "id": "protenix-scramble-101",
+      "protocol": "protenix",
+      "protocol_label": "Protenix \u00b7 base diagnostic",
+      "control_id": "SCRAMBLE-20260914",
+      "control_label": "Proposed scramble",
+      "seed": 101,
+      "sequence": "RRRRCILVPSYYPDCRRRR",
+      "chemistry": "Measured chemistry failed",
+      "pair_iptm": null,
+      "core_rmsd_A": null,
+      "native_contacts_recovered": null,
+      "target_fit_rmsd_A": 1.6233232976153211,
+      "aligned_target_CA_count": 169,
+      "payload": "data/structures/protenix-scramble-101.json",
+      "raw_cif": "data/structures/protenix-scramble-101.cif",
+      "source_cif": "results/protenix-base-default-diagnostic-001/extracted/predictions/SCRAMBLE-20260914/seed_101/predictions/SCRAMBLE-20260914_sample_0.cif",
+      "source_sha256": "4fd1b1b531d29d9705f8aea9cd9a7ca710d8e0dac8457c9713e4e504637a24ee",
+      "payload_sha256": "bdeae559210ac507ae8903e2f30adc4ea406c4af1e65241c8e04ad86fb17a8d8",
+      "transform": {
+        "moving_centroid": [
+          -1.0026389472485207,
+          -0.3411944554733739,
+          -1.0460673233727802
+        ],
+        "reference_centroid": [
+          14.170289940828406,
+          -9.427449704142013,
+          -11.918656804733725
+        ],
+        "rotation_row_vectors": [
+          [
+            0.2678414950860245,
+            -0.9274482028113504,
+            0.2609612320098129
+          ],
+          [
+            0.18627655930869938,
+            -0.21589802382171425,
+            -0.9584827002935373
+          ],
+          [
+            0.9452840720980101,
+            0.30533239987245775,
+            0.11493541067020889
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "KRpep-2d",
+    "seed": 17,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 58,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.9859656946466555
+      },
+      {
+        "target_residue": 59,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.169048099808521
+      },
+      {
+        "target_residue": 62,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 2.4586454155286392
+      },
+      {
+        "target_residue": 62,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 3.3049072050210433
+      },
+      {
+        "target_residue": 62,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.721377487141018
+      },
+      {
+        "target_residue": 63,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.651371699553469
+      },
+      {
+        "target_residue": 64,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.562961850778086
+      },
+      {
+        "target_residue": 68,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.468897844474525
+      },
+      {
+        "target_residue": 68,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.0488880866473265
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.911755622185516
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.437099513150827
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.5061631146454095
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.9799867903230703
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.9912103217695756
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.6774329737455616
+      },
+      {
+        "target_residue": 73,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.233599698617625
+      },
+      {
+        "target_residue": 88,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 2.6050108177318574
+      },
+      {
+        "target_residue": 95,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.072790958412238
+      },
+      {
+        "target_residue": 95,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.8419681091076225
+      },
+      {
+        "target_residue": 96,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.586903850314362
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 5,
+        "minimum_heavy_atom_distance_A": 3.991708841899669
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.470926623799472
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.9072333422689014
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.9678913109358227
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.1242351616355633
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 15,
+        "minimum_heavy_atom_distance_A": 2.7920095573081407
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.654111024380622
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.7564157705614734
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 14,
+        "minimum_heavy_atom_distance_A": 3.81981237897884
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.6034585030772863
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.0346412153663245
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.851876046045615
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        58,
+        59,
+        62,
+        63,
+        64,
+        68,
+        69,
+        72,
+        73,
+        88,
+        95,
+        96,
+        99,
+        102,
+        103
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 2.3220846111629947,
+      "ACE_C_peptide1_N_A": 1.453735791985598,
+      "peptide19_C_NH2_N_A": 1.068209697624955
+    },
+    "reference_pose_diagnostic": {
+      "target_CA_169_RMSD_A": 1.110372653130839,
+      "positive_peptide_CA_19_RMSD_A": 1.715106602457891,
+      "positive_core_CA_5_to_15_RMSD_A": 0.4264164846411889
+    },
+    "confidence_sha256": "59cc3e283d80b4b04c8b53da0331411a8c5b64df67c43ac6081439739df8b0c0",
+    "cif_sha256": "490dc91a18dfe036bce397c234533c1e25cfdeacca72cb526181725262bbb42b"
+  },
+  {
+    "id": "SCRAMBLE-20260914",
+    "seed": 17,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 5,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.23096676053778
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.633170018661389
+      },
+      {
+        "target_residue": 6,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.020331908168372
+      },
+      {
+        "target_residue": 7,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.681809027231043
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.023425614117206
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.7441150917190047
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.831908831757352
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.699165253629351
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.364315854419736
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.5052052699235747
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.1231226750481635
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.235814920371683
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.8914895097682782
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.5119117907681385
+      },
+      {
+        "target_residue": 55,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.907802502455824
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.316230023068364
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.595882584637602
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.5159630266685116
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.571310965233915
+      },
+      {
+        "target_residue": 70,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.0834732955062214
+      },
+      {
+        "target_residue": 70,
+        "peptide_residue": 13,
+        "minimum_heavy_atom_distance_A": 2.8010848236531505
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.9369421237935414
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.3911977474043002
+      },
+      {
+        "target_residue": 74,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.3637947604008183
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        5,
+        6,
+        7,
+        37,
+        38,
+        39,
+        54,
+        55,
+        56,
+        67,
+        70,
+        71,
+        74
+      ],
+      "B": [
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 1.8041130921037072,
+      "ACE_C_peptide1_N_A": 0.9855697011373679,
+      "peptide19_C_NH2_N_A": 0.9930455279593177
+    },
+    "reference_pose_diagnostic": {},
+    "confidence_sha256": "ccabcacb6e7998ba6ff56899f6230fa048c777963d3d59a77c1c596ad50f1688",
+    "cif_sha256": "bce375b7a89c03514389998be193b4c8ad9d12c3bf30506e81f8b18870a18da5"
+  },
+  {
+    "id": "KRpep-2d",
+    "seed": 42,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 3,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.72488658114425
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.4159588968692227
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.282279771881123
+      },
+      {
+        "target_residue": 6,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.4894680423335425
+      },
+      {
+        "target_residue": 7,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.5479109916963814
+      },
+      {
+        "target_residue": 35,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.9075485941572112
+      },
+      {
+        "target_residue": 35,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 3.2837555549705586
+      },
+      {
+        "target_residue": 36,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 3.1540343961028703
+      },
+      {
+        "target_residue": 36,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.3298007430325316
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.322258085399146
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 2.896815922249807
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.0554943357826745
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 2.824932442342648
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 2.8048215285468694
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.2051218373877766
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 5,
+        "minimum_heavy_atom_distance_A": 3.135625572449618
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 2.9908088985088965
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.315961058305721
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 2.8704112540714437
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 15,
+        "minimum_heavy_atom_distance_A": 2.7828635074325865
+      },
+      {
+        "target_residue": 40,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.8730985369985094
+      },
+      {
+        "target_residue": 40,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.879717119507554
+      },
+      {
+        "target_residue": 40,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 2.5385267303300156
+      },
+      {
+        "target_residue": 41,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.5574910083517395
+      },
+      {
+        "target_residue": 41,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 2.925981632580766
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.2223245968244725
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 2.6006314009870755
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.0847209473305686
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.364570241873395
+      },
+      {
+        "target_residue": 55,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.0995111737982164
+      },
+      {
+        "target_residue": 55,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.6487107538553945
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.001655431740958
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.1393556424368363
+      },
+      {
+        "target_residue": 59,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.4377180367941755
+      },
+      {
+        "target_residue": 60,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.8415124414350146
+      },
+      {
+        "target_residue": 61,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.4098347489284584
+      },
+      {
+        "target_residue": 65,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.55922775549697
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.0928289401290856
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.3415695408894304
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 13,
+        "minimum_heavy_atom_distance_A": 3.5030099108909187
+      },
+      {
+        "target_residue": 70,
+        "peptide_residue": 13,
+        "minimum_heavy_atom_distance_A": 3.9588424339824395
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.9681783872830114
+      },
+      {
+        "target_residue": 74,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.1447255667386935
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        3,
+        5,
+        6,
+        7,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        54,
+        55,
+        56,
+        59,
+        60,
+        61,
+        65,
+        67,
+        70,
+        71,
+        74
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 1.8358255896462503,
+      "ACE_C_peptide1_N_A": 1.504588276705624,
+      "peptide19_C_NH2_N_A": 0.7501273785831301
+    },
+    "reference_pose_diagnostic": {
+      "target_CA_169_RMSD_A": 1.6179021572444146,
+      "positive_peptide_CA_19_RMSD_A": 23.846460284128874,
+      "positive_core_CA_5_to_15_RMSD_A": 21.469775963381036
+    },
+    "confidence_sha256": "0080b225c6e48a56b82e1d3271d9c82d499e00777cc213d953d00331573ae384",
+    "cif_sha256": "f8cbb8d24708b9bfd8378dd1b2ece29565f3dd62483b1a0ace4a5bd80b65f337"
+  },
+  {
+    "id": "SCRAMBLE-20260914",
+    "seed": 42,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 5,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.0804502555308373
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.5607477134725505
+      },
+      {
+        "target_residue": 6,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.8769134524868836
+      },
+      {
+        "target_residue": 7,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.6263895994501203
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.262289495354452
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.8755582395249792
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.682046313138932
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.4118368821502005
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.435731787101548
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.5837839854265763
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.002764336623838
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.3966353988174824
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.449176937279135
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.405925078592432
+      },
+      {
+        "target_residue": 55,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.839144862609381
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.3652508919989907
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.524456923541555
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.4663463766623206
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.898227567704095
+      },
+      {
+        "target_residue": 70,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.336006425188657
+      },
+      {
+        "target_residue": 70,
+        "peptide_residue": 13,
+        "minimum_heavy_atom_distance_A": 3.256044585597685
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.8918962764827123
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.2369277152571696
+      },
+      {
+        "target_residue": 74,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.5144777897576764
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        5,
+        6,
+        7,
+        37,
+        38,
+        39,
+        54,
+        55,
+        56,
+        67,
+        70,
+        71,
+        74
+      ],
+      "B": [
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 1.8800979530598934,
+      "ACE_C_peptide1_N_A": 0.802530459608855,
+      "peptide19_C_NH2_N_A": 0.7258824856683079
+    },
+    "reference_pose_diagnostic": {},
+    "confidence_sha256": "26bf06d0bd05b4ac57a0dfafcb56f95d49e82854dfd65afca78e04242f2c9f4b",
+    "cif_sha256": "c75f65ecc8153e31d80e69e59a065214dd11fb7893766ef4b24162583a827a31"
+  },
+  {
+    "id": "KRpep-2d",
+    "seed": 101,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 59,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.64218095848865
+      },
+      {
+        "target_residue": 60,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.2090960140513083
+      },
+      {
+        "target_residue": 60,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.604240338864766
+      },
+      {
+        "target_residue": 62,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 2.6790286639377343
+      },
+      {
+        "target_residue": 62,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 3.4346913393345835
+      },
+      {
+        "target_residue": 64,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.5787861093951947
+      },
+      {
+        "target_residue": 68,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.9002411383143984
+      },
+      {
+        "target_residue": 68,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 2.8978391525065708
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.838619871073456
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.420400696124507
+      },
+      {
+        "target_residue": 69,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.2923662799117595
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.01342918187901
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.687836786803343
+      },
+      {
+        "target_residue": 72,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.7991404664110733
+      },
+      {
+        "target_residue": 73,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.1897149806996863
+      },
+      {
+        "target_residue": 95,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.1962105747431595
+      },
+      {
+        "target_residue": 96,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.530652501280747
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.9562794998584216
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 5,
+        "minimum_heavy_atom_distance_A": 3.897725720596563
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.886075220167514
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.648032705443798
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.898185681082932
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.5343690799490646
+      },
+      {
+        "target_residue": 99,
+        "peptide_residue": 15,
+        "minimum_heavy_atom_distance_A": 3.102518256336294
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.0028734474166576
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.991994008383038
+      },
+      {
+        "target_residue": 102,
+        "peptide_residue": 14,
+        "minimum_heavy_atom_distance_A": 3.8384003492861463
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.862753689532896
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.8155350806907022
+      },
+      {
+        "target_residue": 103,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.6745786661058166
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        59,
+        60,
+        62,
+        64,
+        68,
+        69,
+        72,
+        73,
+        95,
+        96,
+        99,
+        102,
+        103
+      ],
+      "B": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 2.186355762336038,
+      "ACE_C_peptide1_N_A": 1.7721011044519992,
+      "peptide19_C_NH2_N_A": 0.7249240841633006
+    },
+    "reference_pose_diagnostic": {
+      "target_CA_169_RMSD_A": 1.046495851859468,
+      "positive_peptide_CA_19_RMSD_A": 0.7729016525304965,
+      "positive_core_CA_5_to_15_RMSD_A": 0.5154947671409896
+    },
+    "confidence_sha256": "608a4fd4fc7d5c7253472dd9e506acf39ccd45915a7a329eb0052101f4decd36",
+    "cif_sha256": "5deb17bf5310ab492fe9d0d3bbed5ed15b1678cc3de5b7f2e0404b6d4979f016"
+  },
+  {
+    "id": "SCRAMBLE-20260914",
+    "seed": 101,
+    "chain_indices": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3,
+      "E": 4
+    },
+    "contacts": [
+      {
+        "target_residue": 3,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 3.5725943502446507
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.86436652907759
+      },
+      {
+        "target_residue": 5,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.1224843742443293
+      },
+      {
+        "target_residue": 6,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 2.764348945809845
+      },
+      {
+        "target_residue": 7,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.4427216962310503
+      },
+      {
+        "target_residue": 35,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.8102317555497853
+      },
+      {
+        "target_residue": 35,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 3.3505454900060667
+      },
+      {
+        "target_residue": 36,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 3.4126205786169663
+      },
+      {
+        "target_residue": 36,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.6205679051911184
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.665678724274674
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 2,
+        "minimum_heavy_atom_distance_A": 2.8048136150910272
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 3.250190109655124
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 2.85129832043229
+      },
+      {
+        "target_residue": 37,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 2.9514540851248228
+      },
+      {
+        "target_residue": 38,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 3.0760815867918723
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 4,
+        "minimum_heavy_atom_distance_A": 2.8368585341007044
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 5,
+        "minimum_heavy_atom_distance_A": 3.2638479747990723
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.0952328039906796
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 3.9451028612952532
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 3.1469848851559488
+      },
+      {
+        "target_residue": 39,
+        "peptide_residue": 15,
+        "minimum_heavy_atom_distance_A": 3.755632076561813
+      },
+      {
+        "target_residue": 40,
+        "peptide_residue": 6,
+        "minimum_heavy_atom_distance_A": 3.4009090515625378
+      },
+      {
+        "target_residue": 41,
+        "peptide_residue": 7,
+        "minimum_heavy_atom_distance_A": 2.543087969791843
+      },
+      {
+        "target_residue": 41,
+        "peptide_residue": 8,
+        "minimum_heavy_atom_distance_A": 2.464288344106671
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 9,
+        "minimum_heavy_atom_distance_A": 2.5266661375615094
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 10,
+        "minimum_heavy_atom_distance_A": 2.694469418939469
+      },
+      {
+        "target_residue": 54,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.322275993622445
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.7939992411306567
+      },
+      {
+        "target_residue": 56,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.6609248615206513
+      },
+      {
+        "target_residue": 59,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 3.01587534677745
+      },
+      {
+        "target_residue": 60,
+        "peptide_residue": 1,
+        "minimum_heavy_atom_distance_A": 2.455178755651001
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 3,
+        "minimum_heavy_atom_distance_A": 2.8884771784627286
+      },
+      {
+        "target_residue": 67,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.530862089971797
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.8029877347422514
+      },
+      {
+        "target_residue": 71,
+        "peptide_residue": 12,
+        "minimum_heavy_atom_distance_A": 3.8608220685496497
+      },
+      {
+        "target_residue": 74,
+        "peptide_residue": 11,
+        "minimum_heavy_atom_distance_A": 3.2008199956573624
+      }
+    ],
+    "interface_residues": {
+      "A": [
+        3,
+        5,
+        6,
+        7,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        54,
+        56,
+        59,
+        60,
+        67,
+        71,
+        74
+      ],
+      "B": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ]
+    },
+    "geometry": {
+      "Cys5_SG_Cys15_SG_A": 1.7628282016691255,
+      "ACE_C_peptide1_N_A": 1.8320586144826236,
+      "peptide19_C_NH2_N_A": 1.1664993961850136
+    },
+    "reference_pose_diagnostic": {},
+    "confidence_sha256": "2b5f324f65db4a0024f89b599e2ae41497d566cbce1524a529ac11a9d2f6d0f4",
+    "cif_sha256": "c7e5f36170ba4ee7525933b8944405a746d2c675c7b626cde0c8881cd09b97ba"
+  }
+]
